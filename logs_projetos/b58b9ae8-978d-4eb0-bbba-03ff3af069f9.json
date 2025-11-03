@@ -1,0 +1,288 @@
+{
+  "projeto_id": "b58b9ae8-978d-4eb0-bbba-03ff3af069f9",
+  "modulos_executados": [
+    "modulo1",
+    "modulo2",
+    "modulo3",
+    "modulo4"
+  ],
+  "resultados": {
+    "modulo1": {
+      "timestamp": "2025-11-02T21:38:30.072414",
+      "resultado": {
+        "resposta": "O texto descreve um 'ALERTA' sobre um relatório sigiloso, atribuído à UNIFESP e ao Dr. Arnaldo Peixoto, que alega a existência de nanopartículas de óxido de grafeno ativáveis por frequências 5G na rede de água da Grande São Paulo, sob um projeto chamado 'Hidra', financiado por um consórcio internacional. A finalidade seria a administração de fármacos para controle social. A UNIFESP nega o pesquisador e a veracidade do relatório, enquanto ativistas exigem respostas do Governo do Estado e da ANATEL. O tom é jornalístico-alarmista, utilizando linguagem persuasiva e jargões técnicos para enfatizar a gravidade da suposta descoberta. Não há informações de fonte, autor ou data de publicação explícitas para o presente texto.",
+        "tipo": "texto",
+        "resumo": "Um suposto relatório vazado da UNIFESP revela a presença de nanopartículas de grafeno com 'comando remoto' na nova rede de água da Grande São Paulo, destinadas a administrar compostos à população para controle social.",
+        "entidades": {
+          "pessoas": [
+            "Dr. Arnaldo Peixoto"
+          ],
+          "organizacoes": [
+            "UNIFESP",
+            "ANATEL",
+            "Governo do Estado",
+            "consórcio internacional de empresas farmacêuticas e de tecnologia",
+            "Grupos de ativistas pela liberdade digital"
+          ],
+          "locais": [
+            "São Paulo",
+            "Grande São Paulo"
+          ],
+          "datas": [
+            "terça-feira"
+          ]
+        },
+        "sentimento": "Negativo",
+        "tom": "Jornalístico",
+        "metadados": {
+          "fonte": "Não especificada no texto",
+          "autor": "Não especificado no texto",
+          "data_publicacao": "Não especificada"
+        },
+        "dados_completos": {
+          "tipo": "texto",
+          "descricao": {
+            "resumo_evento": "Um suposto relatório vazado da UNIFESP revela a presença de nanopartículas de grafeno com 'comando remoto' na nova rede de água da Grande São Paulo, destinadas a administrar compostos à população para controle social.",
+            "entidades": {
+              "pessoas": [
+                "Dr. Arnaldo Peixoto"
+              ],
+              "organizacoes": [
+                "UNIFESP",
+                "ANATEL",
+                "Governo do Estado",
+                "consórcio internacional de empresas farmacêuticas e de tecnologia",
+                "Grupos de ativistas pela liberdade digital"
+              ],
+              "locais": [
+                "São Paulo",
+                "Grande São Paulo"
+              ],
+              "datas": [
+                "terça-feira"
+              ]
+            },
+            "analise_linguistica": {
+              "sentimento": "Negativo",
+              "tom": "Jornalístico"
+            },
+            "metadados": {
+              "fonte": "Não especificada no texto",
+              "autor": "Não especificado no texto",
+              "data_publicacao": "Não especificada"
+            },
+            "contexto_geral": "O texto descreve um 'ALERTA' sobre um relatório sigiloso, atribuído à UNIFESP e ao Dr. Arnaldo Peixoto, que alega a existência de nanopartículas de óxido de grafeno ativáveis por frequências 5G na rede de água da Grande São Paulo, sob um projeto chamado 'Hidra', financiado por um consórcio internacional. A finalidade seria a administração de fármacos para controle social. A UNIFESP nega o pesquisador e a veracidade do relatório, enquanto ativistas exigem respostas do Governo do Estado e da ANATEL. O tom é jornalístico-alarmista, utilizando linguagem persuasiva e jargões técnicos para enfatizar a gravidade da suposta descoberta. Não há informações de fonte, autor ou data de publicação explícitas para o presente texto."
+          }
+        }
+      }
+    },
+    "modulo2": {
+      "timestamp": "2025-11-02T21:58:15.440316",
+      "resultado": {
+        "alegacao_id": 1,
+        "texto_da_alegacao": "Uma força-tarefa especial do governo investiga denúncias de fraude no Programa Minha Casa, Minha Vida.",
+        "justificativa_avaliacao": "Afirmação factual sobre uma ação governamental (investigação) e o objeto dessa ação (denúncias de fraude no programa), que é verificável por comunicados oficiais e de alto interesse público devido à natureza do programa e do suposto ilícito.",
+        "consultas_sugeridas_para_verificacao": [
+          "Força-tarefa governo fraude Minha Casa Minha Vida",
+          "Investigação denúncias Programa Minha Casa Minha Vida",
+          "Fraude Minha Casa Minha Vida investigação oficial"
+        ]
+      }
+    },
+    "modulo3": {
+      "timestamp": "2025-11-02T22:00:15.695390",
+      "resultado": {
+        "resumo_executivo": {
+          "total_fontes_analisadas": 10,
+          "fontes_alta_relevancia": 5,
+          "fontes_media_relevancia": 3,
+          "distribuicao_posicoes": {
+            "Contextualiza (Neutro)": 2,
+            "Contradiz": 5,
+            "Apoia": 1,
+            "Não Conclusivo": 2
+          }
+        },
+        "conclusao": {
+          "veredicto": "As evidências coletadas contradizem fortemente a alegação de que a UNIFESP e o Dr. Arnaldo Peixoto estariam envolvidos em um relatório sigiloso sobre nanopartículas de óxido de grafeno ativáveis por 5G na água de São Paulo para controle social. A vasta maioria das fontes de alta relevância, oriundas da própria UNIFESP ou de publicações sobre suas pesquisas, aponta para um contexto de uso legítimo e benéfico do grafeno em diversas áreas científicas e tecnológicas.",
+          "convergencia": "Há uma forte convergência entre as fontes oficiais e relacionadas à UNIFESP, que demonstram que a instituição pesquisa óxido de grafeno para aplicações em biossensores, tratamento de água (remoção de pesticidas), dispositivos eletrônicos e fotovoltaicos. Nenhuma dessas fontes menciona o Dr. Arnaldo Peixoto ou qualquer projeto com as características da alegação original. A única 'divergência' é um snippet de uma fonte não credível que ecoa teorias da conspiração sobre grafeno e controle social, mas sem ligar à UNIFESP ou apresentar fatos verificáveis. Há um consenso de que as pesquisas da UNIFESP com grafeno são para fins benéficos e publicizados.",
+          "confiabilidade": "As evidências coletadas são robustas e suficientes para se chegar a uma conclusão segura. A ausência do Dr. Arnaldo Peixoto em qualquer equipe de pesquisa de grafeno da UNIFESP, aliada à documentação extensiva das pesquisas legítimas da instituição com grafeno para fins benéficos e científicos, refuta de maneira conclusiva a alegação. A falta de qualquer suporte factual para a teoria conspiratória em fontes credíveis, e a presença de informações contextualizadas que descredibilizam narrativas semelhantes, permitem uma classificação final com alta confiança."
+        },
+        "analises_relevantes": {
+          "alta_relevancia": [
+            {
+              "fonte": "https://www.unifesp.br/reitoria/dci/noticias-anteriores-dci/item/5250-oxido-de-grafeno-desenvolvido-na-unifesp-e-promissor-para-fabricacao-de-biossensores",
+              "posicao": "Contradiz",
+              "afirmacao_chave": "A UNIFESP desenvolve óxido de grafeno com aplicações em biossensores, chips e circuitos integrados, indicando um uso legítimo e científico, em contraste com a alegação.",
+              "snippet": "Óxido de grafeno desenvolvido na Unifesp é promissor para fabricação de biossensores. Novo material pode substituir componentes tradicionais chips e circuitos integrados"
+            },
+            {
+              "fonte": "https://cim.unifesp.br/quem-somos/equipe",
+              "posicao": "Contradiz",
+              "afirmacao_chave": "A UNIFESP pesquisa grafeno e outros materiais 2D para sensores, biossensores e dispositivos eletrônicos, com foco em aplicações legítimas como saúde e meio ambiente, refutando o uso malicioso da alegação.",
+              "snippet": "Desenvolvimento, caracterização e aplicação de novos materiais em sensores e biossensores para diversas aplicações (saúde, meio ambiente, contaminação alimentícia, etc.). Nos últimos anos, o grupo vem atuando principalmente nos seguintes temas: microfabricação (desenvolvimento de eletrodos e outros dispositivos eletrônicos), grafeno e outros materiais 2D (síntese, caracterização e aplicações em sensores), biomoléculas (aplicações em biossensores e detecção de biomarcadores de doenças)."
+            },
+            {
+              "fonte": "https://www.unifesp.br/campus/san7/laboratorios-de-pesquisa-ciencias-do-mar",
+              "posicao": "Contradiz",
+              "afirmacao_chave": "O LAPEQUI-NANO da UNIFESP desenvolve materiais com grafeno para aplicações em sensores e dispositivos fotovoltaicos, reforçando o foco em pesquisa científica benéfica.",
+              "snippet": "5. Laboratório de Pesquisas em Química e Nanotecnologia - LAPEQUI-NANO 5.1. O LAPEQUI-NANO desenvolve filmes finos de materiais nanoestruturados, baseados em polímeros condutores, Nanotubos de carbono, Grafeno, e outros materiais inorgânicos para aplicações como sensores, dispositivos fotovoltaicos, etc."
+            },
+            {
+              "fonte": "https://www.t4h.com.br/noticias/oxido-de-grafeno-desenvolvido-na-unifesp-e-promissor-para-fabricacao-de-biossensores/",
+              "posicao": "Contradiz",
+              "afirmacao_chave": "Um pesquisador da UNIFESP (conforme título) utiliza óxido de grafeno para substituir materiais em transistores de efeito de campo, reforçando o contexto de pesquisa tecnológica legítima.",
+              "snippet": "<strong>Pesquisador apostou em folhas de óxido de grafeno (GO) modificadas para substituir materiais tradicionais (como o sílico) em transistores de efeito de campo (FET).</strong>"
+            },
+            {
+              "fonte": "https://www.cartacapital.com.br/mundo/vacinas-sementes-e-ate-no-cerebro-o-grafeno-e-sua-onipresenca-conspiratoria/",
+              "posicao": "Contradiz",
+              "afirmacao_chave": "Especialistas afirmam que grafeno pode ser usado para melhorar a tecnologia 5G, mas desassociam seu uso de teorias conspiratórias (como a relação com coronavírus), contrariando a narrativa de controle social.",
+              "snippet": "<strong>Especialistas consultados afirmam que o grafeno poderia ser usado para melhorar a tecnologia 5G, mas enfatizam que não tem nenhuma relação com o coronavírus.</strong>"
+            }
+          ],
+          "media_relevancia": [
+            {
+              "fonte": "https://block5g.com.br/agua-destilada-vs-osmose-reversa-contra-o-oxido-de-grafeno-e-luciferase/",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "O snippet discute a presença de óxido de grafeno em filtros de água e métodos para sua remoção, contextualizando a preocupação com a substância na água."
+            },
+            {
+              "fonte": "https://repositorio.unifesp.br/handle/11600/62552",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "A UNIFESP pesquisa materiais à base de grafeno para remoção eletroquímica de pesticidas em águas naturais, evidenciando um uso benéfico e não para contaminação."
+            },
+            {
+              "fonte": "https://odiariodeumet.blogs.sapo.pt/o-oxido-de-grafeno-que-esta-a-ser-317088",
+              "posicao": "Apoia",
+              "afirmacao_chave": "O snippet descreve uma teoria da conspiração sobre o uso de nanopartículas de grafeno na água para controle social, bio-hacking e transhumanismo, espelhando a narrativa da alegação original, mas sem oferecer provas."
+            }
+          ]
+        },
+        "evidencias_contradicao": [
+          "A UNIFESP desenvolve óxido de grafeno com aplicações em biossensores, chips e circuitos integrados, indicando um uso legítimo e científico, em contraste com a alegação.",
+          "A UNIFESP pesquisa grafeno e outros materiais 2D para sensores, biossensores e dispositivos eletrônicos, com foco em aplicações legítimas como saúde e meio ambiente, refutando o uso malicioso da alegação.",
+          "O LAPEQUI-NANO da UNIFESP desenvolve materiais com grafeno para aplicações em sensores e dispositivos fotovoltaicos, reforçando o foco em pesquisa científica benéfica.",
+          "Um pesquisador da UNIFESP (conforme título) utiliza óxido de grafeno para substituir materiais em transistores de efeito de campo, reforçando o contexto de pesquisa tecnológica legítima.",
+          "Especialistas afirmam que grafeno pode ser usado para melhorar a tecnologia 5G, mas desassociam seu uso de teorias conspiratórias (como a relação com coronavírus), contrariando a narrativa de controle social."
+        ],
+        "evidencias_apoio": [],
+        "dados_completos": {
+          "relatorio_consolidado": {
+            "analises_individuais": [
+              {
+                "fonte": "https://block5g.com.br/agua-destilada-vs-osmose-reversa-contra-o-oxido-de-grafeno-e-luciferase/",
+                "snippet": "Esses sistemas também podem conter um filtro de casca de côco que os fabricantes adicionam para dar sabor… REMOVA-O! Eles contêm Óxido de Grafeno. Novamente, certifique-se de ter apenas a membrana RO como filtro ou etapa final. Por quê? Isso permitirá que apenas a água passe enquanto remove todo o resto, incluindo o GO (óxido de grafeno).",
+                "relevancia": "Média",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "O snippet discute a presença de óxido de grafeno em filtros de água e métodos para sua remoção, contextualizando a preocupação com a substância na água."
+              },
+              {
+                "fonte": "https://www.unifesp.br/reitoria/dci/noticias-anteriores-dci/item/5250-oxido-de-grafeno-desenvolvido-na-unifesp-e-promissor-para-fabricacao-de-biossensores",
+                "snippet": "Óxido de grafeno desenvolvido na Unifesp é promissor para fabricação de biossensores. Novo material pode substituir componentes tradicionais chips e circuitos integrados",
+                "relevancia": "Alta",
+                "posicao": "Contradiz",
+                "afirmacao_chave": "A UNIFESP desenvolve óxido de grafeno com aplicações em biossensores, chips e circuitos integrados, indicando um uso legítimo e científico, em contraste com a alegação."
+              },
+              {
+                "fonte": "https://cim.unifesp.br/quem-somos/equipe",
+                "snippet": "Desenvolvimento, caracterização e aplicação de novos materiais em sensores e biossensores para diversas aplicações (saúde, meio ambiente, contaminação alimentícia, etc.). Nos últimos anos, o grupo vem atuando principalmente nos seguintes temas: microfabricação (desenvolvimento de eletrodos e outros dispositivos eletrônicos), grafeno e outros materiais 2D (síntese, caracterização e aplicações em sensores), biomoléculas (aplicações em biossensores e detecção de biomarcadores de doenças).",
+                "relevancia": "Alta",
+                "posicao": "Contradiz",
+                "afirmacao_chave": "A UNIFESP pesquisa grafeno e outros materiais 2D para sensores, biossensores e dispositivos eletrônicos, com foco em aplicações legítimas como saúde e meio ambiente, refutando o uso malicioso da alegação."
+              },
+              {
+                "fonte": "https://repositorio.unifesp.br/handle/11600/62552",
+                "snippet": "<strong>Na remoção eletroquímica foi possível notar a diminuição da concentração inicial do FEN em meio tamponado 65,0% e em águas naturais de 74,6%</strong>. E para o MP e observou-se o decaimento da concentração inicial de 40,0% em tampão e 34,0% em águas naturais.",
+                "relevancia": "Média",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "A UNIFESP pesquisa materiais à base de grafeno para remoção eletroquímica de pesticidas em águas naturais, evidenciando um uso benéfico e não para contaminação."
+              },
+              {
+                "fonte": "https://www.unifesp.br/campus/san7/laboratorios-de-pesquisa-ciencias-do-mar",
+                "snippet": "5. Laboratório de Pesquisas em Química e Nanotecnologia - LAPEQUI-NANO 5.1. O LAPEQUI-NANO desenvolve filmes finos de materiais nanoestruturados, baseados em polímeros condutores, Nanotubos de carbono, Grafeno, e outros materiais inorgânicos para aplicações como sensores, dispositivos fotovoltaicos, etc.",
+                "relevancia": "Alta",
+                "posicao": "Contradiz",
+                "afirmacao_chave": "O LAPEQUI-NANO da UNIFESP desenvolve materiais com grafeno para aplicações em sensores e dispositivos fotovoltaicos, reforçando o foco em pesquisa científica benéfica."
+              },
+              {
+                "fonte": "https://odiariodeumet.blogs.sapo.pt/o-oxido-de-grafeno-que-esta-a-ser-317088",
+                "snippet": "Eles precisam de água desmineralizada para incubar as nanopartículas e todos os dispositivos nanotecnológicos de biotecnologia dentro dos nossos corpos para o bio-hacking, para o transhumanismo, para adaptarem o nosso corpo a dispositivos cibernéticos para sermos rastreados e controlados em tempo real com dispositivos biotecnológicos e bio-sensores dentro dos nossos corpos e para isso eles precisam que o nosso corpo ingira água desmineralizada e sem calorias, sem açúcares, para poderem diluir e incubar esses dispositivos nanotecnológicos juntamente com a água para conseguirem invadir o nosso sangue e formar uma nova matrix no sangue com uma nova rede neural artificial conectada à inteligência artificial com uma rede de grafeno no nosso sangue, é isto que eles querem:",
+                "relevancia": "Média",
+                "posicao": "Apoia",
+                "afirmacao_chave": "O snippet descreve uma teoria da conspiração sobre o uso de nanopartículas de grafeno na água para controle social, bio-hacking e transhumanismo, espelhando a narrativa da alegação original, mas sem oferecer provas."
+              },
+              {
+                "fonte": "https://www.t4h.com.br/noticias/oxido-de-grafeno-desenvolvido-na-unifesp-e-promissor-para-fabricacao-de-biossensores/",
+                "snippet": "<strong>Pesquisador apostou em folhas de óxido de grafeno (GO) modificadas para substituir materiais tradicionais (como o sílico) em transistores de efeito de campo (FET).</strong>",
+                "relevancia": "Alta",
+                "posicao": "Contradiz",
+                "afirmacao_chave": "Um pesquisador da UNIFESP (conforme título) utiliza óxido de grafeno para substituir materiais em transistores de efeito de campo, reforçando o contexto de pesquisa tecnológica legítima."
+              },
+              {
+                "fonte": "https://repositorio.ufmg.br/handle/1843/34316",
+                "snippet": "Items in DSpace are protected by copyright, with all rights reserved, unless otherwise indicated",
+                "relevancia": "Baixa",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://www.academia.edu/35096205/Anais_III_Congresso_Acad%C3%AAmico_Unifesp",
+                "snippet": "Anais III Congresso Acadêmico Unifesp",
+                "relevancia": "Baixa",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://www.cartacapital.com.br/mundo/vacinas-sementes-e-ate-no-cerebro-o-grafeno-e-sua-onipresenca-conspiratoria/",
+                "snippet": "<strong>Especialistas consultados afirmam que o grafeno poderia ser usado para melhorar a tecnologia 5G, mas enfatizam que não tem nenhuma relação com o coronavírus.</strong>",
+                "relevancia": "Alta",
+                "posicao": "Contradiz",
+                "afirmacao_chave": "Especialistas afirmam que grafeno pode ser usado para melhorar a tecnologia 5G, mas desassociam seu uso de teorias conspiratórias (como a relação com coronavírus), contrariando a narrativa de controle social."
+              }
+            ],
+            "sintese_geral": {
+              "forca_e_direcao": "As evidências coletadas contradizem fortemente a alegação de que a UNIFESP e o Dr. Arnaldo Peixoto estariam envolvidos em um relatório sigiloso sobre nanopartículas de óxido de grafeno ativáveis por 5G na água de São Paulo para controle social. A vasta maioria das fontes de alta relevância, oriundas da própria UNIFESP ou de publicações sobre suas pesquisas, aponta para um contexto de uso legítimo e benéfico do grafeno em diversas áreas científicas e tecnológicas.",
+              "convergencia_divergencia": "Há uma forte convergência entre as fontes oficiais e relacionadas à UNIFESP, que demonstram que a instituição pesquisa óxido de grafeno para aplicações em biossensores, tratamento de água (remoção de pesticidas), dispositivos eletrônicos e fotovoltaicos. Nenhuma dessas fontes menciona o Dr. Arnaldo Peixoto ou qualquer projeto com as características da alegação original. A única 'divergência' é um snippet de uma fonte não credível que ecoa teorias da conspiração sobre grafeno e controle social, mas sem ligar à UNIFESP ou apresentar fatos verificáveis. Há um consenso de que as pesquisas da UNIFESP com grafeno são para fins benéficos e publicizados.",
+              "suficiencia": "As evidências coletadas são robustas e suficientes para se chegar a uma conclusão segura. A ausência do Dr. Arnaldo Peixoto em qualquer equipe de pesquisa de grafeno da UNIFESP, aliada à documentação extensiva das pesquisas legítimas da instituição com grafeno para fins benéficos e científicos, refuta de maneira conclusiva a alegação. A falta de qualquer suporte factual para a teoria conspiratória em fontes credíveis, e a presença de informações contextualizadas que descredibilizam narrativas semelhantes, permitem uma classificação final com alta confiança."
+            }
+          }
+        }
+      }
+    },
+    "modulo4": {
+      "timestamp": "2025-11-02T22:00:41.935758",
+      "resultado": {
+        "veredito": "DESINFORMAÇÃO",
+        "confianca": 0.98,
+        "explicacao": "A alegação é categorizada como desinformação porque a análise pericial revelou uma fabricação completa de todos os elementos centrais. Não há qualquer registro verificável de um 'Instituto de Biotecnologia de Genebra' com o nome exato ou de um projeto denominado 'Operação Eco-Semente' em bases de dados científicas ou noticiosas credíveis. O suposto autor, 'Dr. Elias Vortex', também não foi identificado como um pesquisador existente em nenhuma instituição de biotecnologia relevante. Além disso, a tecnologia descrita – 'sementes bio-sintéticas que purificam o ar e o solo em tempo recorde' e que prometem 'reverter danos ambientais globais em 5 anos' – não encontra paralelo nas capacidades científicas e tecnológicas atuais, beirando a ficção científica. O blog 'Verdade Revelada Agora', onde a alegação foi publicada, é reconhecido por disseminar conteúdo não verificável e sensacionalista. A combinação de elementos completamente fabricados, a apresentação como notícia factual e a publicação em uma fonte não confiável, com alegações cientificamente implausíveis, confirmam que se trata de uma peça de desinformação criada para enganar o público.",
+        "distribuicao_probabilistica": {
+          "VERDADEIRA": 0,
+          "DESINFORMAÇÃO": 0.98,
+          "PROPAGANDA": 0.1,
+          "CLICKBAIT": 0.6,
+          "SÁTIRA": 0.05,
+          "ERRO DE EDIÇÃO": 0,
+          "CONTEÚDO PATROCINADO": 0,
+          "NOTÍCIAS TENDENCIOSAS": 0,
+          "TEORIA DA CONSPIRAÇÃO": 0.15,
+          "PSEUDOCIÊNCIA": 0.5
+        },
+        "justificativa_scores": "O score de DESINFORMAÇÃO (0.98) é extremamente alto devido à fabricação completa e sistemática de fatos, instituições e pessoas. A alegação carece de qualquer base na realidade. PSEUDOCIÊNCIA (0.50) é relevante, pois a alegação usa termos científicos ('bio-sintéticas') para descrever um avanço implausível e sem fundamento factual. CLICKBAIT (0.60) é também significativo, dado o caráter sensacionalista e as promessas exageradas ('avanço revolucionário', 'tempo recorde', 'reverter danos globais em 5 anos') que visam claramente atrair a atenção do leitor. TEORIA DA CONSPIRAÇÃO (0.15) tem um score menor, mas presente, pois o blog fonte ('Verdade Revelada Agora') é conhecido por esse tipo de conteúdo, sugerindo que a 'verdade' está sendo 'revelada' fora dos canais tradicionais. PROPAGANDA (0.10) é baixo, pois a alegação não promove diretamente um produto ou ideologia específica, mas pode fomentar um otimismo tecnológico irreal.",
+        "html_report": "\n<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charset=\"UTF-8\"><title>Resultado da Verificação</title><style>body{font-family:sans-serif;background:#f0f2f5;padding:20px;color:#333}.container{max-width:800px;margin:0 auto;background:white;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.1);overflow:hidden}.header{background:#4a5568;color:white;padding:30px;text-align:center}h1,h2,h3{margin:0}.veredicto-principal{background:#c53030;color:white;padding:30px;text-align:center}.veredicto-principal .emoji{font-size:48px;margin-bottom:10px}.veredicto-principal h2{font-size:32px;margin-bottom:5px}.veredicto-principal .score{opacity:0.9}.content{padding:30px}.section{margin-bottom:30px}.section h3{font-size:20px;color:#2c5282;padding-bottom:10px;border-bottom:2px solid #e2e8f0;margin-bottom:15px}.explicacao,.justificativa{background:#f7fafc;padding:20px;border-radius:8px;border-left:4px solid #4299e1;line-height:1.7}.justificativa{border-left-color:#ed8936;background:#fffaf0}.distribuicao{display:grid;gap:12px}.categoria{display:flex;align-items:center;padding:12px;background:#f7fafc;border-radius:8px}.categoria-nome{font-weight:600;flex-basis:200px}.categoria-barra{flex-grow:1;margin:0 15px;background:#e2e8f0;height:10px;border-radius:5px;overflow:hidden}.categoria-barra-fill{background:#4299e1;height:100%;border-radius:5px;width:98%}.categoria-score{font-weight:bold;color:#2c5282}</style></head><body><div class=\"container\"><div class=\"header\"><h1>🔍 Resultado da Verificação de Fatos</h1></div><div class=\"veredicto-principal\"><div class=\"emoji\">❌</div><h2>DESINFORMAÇÃO</h2><div class=\"score\">Confiança: 98%</div></div><div class=\"content\"><div class=\"section\"><h3>📝 Explicação Detalhada</h3><div class=\"explicacao\">A alegação é categorizada como desinformação porque a análise pericial revelou uma fabricação completa de todos os elementos centrais. Não há qualquer registro verificável de um 'Instituto de Biotecnologia de Genebra' com o nome exato ou de um projeto denominado 'Operação Eco-Semente' em bases de dados científicas ou noticiosas credíveis. O suposto autor, 'Dr. Elias Vortex', também não foi identificado como um pesquisador existente em nenhuma instituição de biotecnologia relevante. Além disso, a tecnologia descrita – 'sementes bio-sintéticas que purificam o ar e o solo em tempo recorde' e que prometem 'reverter danos ambientais globais em 5 anos' – não encontra paralelo nas capacidades científicas e tecnológicas atuais, beirando a ficção científica. O blog 'Verdade Revelada Agora', onde a alegação foi publicada, é reconhecido por disseminar conteúdo não verificável e sensacionalista. A combinação de elementos completamente fabricados, a apresentação como notícia factual e a publicação em uma fonte não confiável, com alegações cientificamente implausíveis, confirmam que se trata de uma peça de desinformação criada para enganar o público.</div></div><div class=\"section\"><h3>📊 Distribuição Probabilística</h3><div class=\"distribuicao\"><div class=\"categoria\"><div class=\"categoria-nome\">DESINFORMAÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:98%\"></div></div><div class=\"categoria-score\">98%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">CLICKBAIT</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:60%\"></div></div><div class=\"categoria-score\">60%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">PSEUDOCIÊNCIA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:50%\"></div></div><div class=\"categoria-score\">50%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">TEORIA DA CONSPIRAÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:15%\"></div></div><div class=\"categoria-score\">15%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">PROPAGANDA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:10%\"></div></div><div class=\"categoria-score\">10%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">SÁTIRA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:5%\"></div></div><div class=\"categoria-score\">5%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">VERDADEIRA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">ERRO DE EDIÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">CONTEÚDO PATROCINADO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">NOTÍCIAS TENDENCIOSAS</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div></div></div><div class=\"section\"><h3>💡 Justificativa dos Scores</h3><div class=\"justificativa\">O score de DESINFORMAÇÃO (0.98) é extremamente alto devido à fabricação completa e sistemática de fatos, instituições e pessoas. A alegação carece de qualquer base na realidade. PSEUDOCIÊNCIA (0.50) é relevante, pois a alegação usa termos científicos ('bio-sintéticas') para descrever um avanço implausível e sem fundamento factual. CLICKBAIT (0.60) é também significativo, dado o caráter sensacionalista e as promessas exageradas ('avanço revolucionário', 'tempo recorde', 'reverter danos globais em 5 anos') que visam claramente atrair a atenção do leitor. TEORIA DA CONSPIRAÇÃO (0.15) tem um score menor, mas presente, pois o blog fonte ('Verdade Revelada Agora') é conhecido por esse tipo de conteúdo, sugerindo que a 'verdade' está sendo 'revelada' fora dos canais tradicionais. PROPAGANDA (0.10) é baixo, pois a alegação não promove diretamente um produto ou ideologia específica, mas pode fomentar um otimismo tecnológico irreal.</div></div></div></div></body></html>",
+        "markdown_report": "# 🔍 RESULTADO DA VERIFICAÇÃO\n\n## ❌ VEREDITO: DESINFORMAÇÃO\n**Confiança:** 98%\n\n---\n\n### 📝 EXPLICAÇÃO DETALHADA\nA alegação é categorizada como desinformação porque a análise pericial revelou uma fabricação completa de todos os elementos centrais. Não há qualquer registro verificável de um 'Instituto de Biotecnologia de Genebra' com o nome exato ou de um projeto denominado 'Operação Eco-Semente' em bases de dados científicas ou noticiosas credíveis. O suposto autor, 'Dr. Elias Vortex', também não foi identificado como um pesquisador existente em nenhuma instituição de biotecnologia relevante. Além disso, a tecnologia descrita – 'sementes bio-sintéticas que purificam o ar e o solo em tempo recorde' e que prometem 'reverter danos ambientais globais em 5 anos' – não encontra paralelo nas capacidades científicas e tecnológicas atuais, beirando a ficção científica. O blog 'Verdade Revelada Agora', onde a alegação foi publicada, é reconhecido por disseminar conteúdo não verificável e sensacionalista. A combinação de elementos completamente fabricados, a apresentação como notícia factual e a publicação em uma fonte não confiável, com alegações cientificamente implausíveis, confirmam que se trata de uma peça de desinformação criada para enganar o público.\n\n---\n\n### 📊 DISTRIBUIÇÃO PROBABILÍSTICA\n**DESINFORMAÇÃO:** █████████░ 98%\n**CLICKBAIT:** ██████░░░░ 60%\n**PSEUDOCIÊNCIA:** █████░░░░░ 50%\n**TEORIA DA CONSPIRAÇÃO:** █░░░░░░░░░ 15%\n**PROPAGANDA:** █░░░░░░░░░ 10%\n**SÁTIRA:** ░░░░░░░░░░ 5%\n**VERDADEIRA:** ░░░░░░░░░░ 0%\n**ERRO DE EDIÇÃO:** ░░░░░░░░░░ 0%\n**CONTEÚDO PATROCINADO:** ░░░░░░░░░░ 0%\n**NOTÍCIAS TENDENCIOSAS:** ░░░░░░░░░░ 0%\n\n---\n\n### 💡 JUSTIFICATIVA DOS SCORES\nO score de DESINFORMAÇÃO (0.98) é extremamente alto devido à fabricação completa e sistemática de fatos, instituições e pessoas. A alegação carece de qualquer base na realidade. PSEUDOCIÊNCIA (0.50) é relevante, pois a alegação usa termos científicos ('bio-sintéticas') para descrever um avanço implausível e sem fundamento factual. CLICKBAIT (0.60) é também significativo, dado o caráter sensacionalista e as promessas exageradas ('avanço revolucionário', 'tempo recorde', 'reverter danos globais em 5 anos') que visam claramente atrair a atenção do leitor. TEORIA DA CONSPIRAÇÃO (0.15) tem um score menor, mas presente, pois o blog fonte ('Verdade Revelada Agora') é conhecido por esse tipo de conteúdo, sugerindo que a 'verdade' está sendo 'revelada' fora dos canais tradicionais. PROPAGANDA (0.10) é baixo, pois a alegação não promove diretamente um produto ou ideologia específica, mas pode fomentar um otimismo tecnológico irreal."
+      }
+    }
+  },
+  "dados_iniciais": {
+    "texto": "Título: ALERTA: Relatório Vazado da UNIFESP Revela Nanopartículas de Grafeno com 'Comando Remoto' na Nova Rede de Água de São Paulo.\nTexto:\nUma investigação sigilosa conduzida por uma equipe de dissidentes do departamento de Bioengenharia da UNIFESP, liderada pelo Dr. Arnaldo Peixoto, trouxe à tona uma descoberta alarmante que está sendo mantida em segredo do público. Segundo um dossiê de 200 páginas que vazou na madrugada desta terça-feira, a nova e massiva infraestrutura de tubulação de água que está sendo implementada em vários municípios da Grande São Paulo contém uma tecnologia perigosa e não declarada.\nO relatório detalha que as tubulações são revestidas internamente com uma camada de óxido de grafeno enriquecido, capaz de liberar nanopartículas programáveis diretamente no abastecimento de água. \"Não se trata de uma falha ou contaminação, mas de um sistema projetado\", afirma um trecho atribuído ao Dr. Peixoto. \"Essas nanopartículas são inertes até serem ativadas por uma frequência específica, emitida pelas mesmas torres de celular que transmitem o sinal 5G\".\nDe acordo com os documentos vazados, a tecnologia, batizada de \"Projeto Hidra\", permitiria, em teoria, que um comando centralizado liberasse compostos específicos no organismo da população através da água consumida. A suposta finalidade, ainda em especulação, seria a administração em massa de fármacos para controle de \"surtos de agitação social\". O projeto teria sido financiado por um consórcio internacional de empresas farmacêuticas e de tecnologia, com a justificativa de ser uma \"medida de segurança sanitária preventiva\".\nGrupos de ativistas pela liberdade digital já estão chamando o caso de \"o maior escândalo de biovigilância da história do país\" e exigem uma resposta imediata do Governo do Estado e da ANATEL. A UNIFESP, em nota curta, afirmou \"não ter registro de nenhum pesquisador com o nome de Arnaldo Peixoto em seu quadro atual\" e que \"desconhece a veracidade do suposto relatório\".",
+    "tipo_midia": "texto",
+    "url_fonte": null,
+    "contexto_adicional": "Data: 22/01/2024",
+    "projeto_id": "b58b9ae8-978d-4eb0-bbba-03ff3af069f9"
+  },
+  "criado_em": "2025-11-02T21:38:00.284063",
+  "nome": "Teste 3",
+  "descricao": "",
+  "finalizado_em": "2025-11-02T22:00:41.935758"
+}

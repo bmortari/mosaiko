@@ -1,0 +1,295 @@
+{
+  "projeto_id": "9f100e0c-6d3b-4842-b596-141a76728012",
+  "modulos_executados": [
+    "modulo1",
+    "modulo1",
+    "modulo2",
+    "modulo3",
+    "modulo4"
+  ],
+  "resultados": {
+    "modulo1": {
+      "timestamp": "2025-11-02T22:08:58.412849",
+      "resultado": {
+        "resposta": "O texto reporta uma descoberta científica significativa da NASA, onde o Telescópio James Webb identificou um buraco negro supermassivo recorde em distância e idade, localizado na galáxia CEERS 1019. A notícia, com um tom jornalístico-científico e sentimento positivo, detalha a importância da descoberta para a compreensão do universo primitivo, citando a Dra. Rebecca Larson da Universidade do Texas em Austin e a publicação no The Astrophysical Journal. A falta de uma data específica de publicação para este texto (além de 'hoje') e de um autor direto do artigo de notícia são pontos a considerar em verificações futuras.",
+        "tipo": "texto",
+        "resumo": "A NASA, por meio do Telescópio Espacial James Webb (JWST), anunciou a descoberta do buraco negro supermassivo ativo mais distante já observado, localizado na galáxia CEERS 1019. Este buraco negro data de 570 milhões de anos após o Big Bang e possui cerca de 9 milhões de massas solares, desafiando modelos existentes sobre a formação de buracos negros primitivos. As descobertas foram publicadas na revista The Astrophysical Journal e fornecem insights cruciais sobre a coevolução de galáxias e buracos negros no universo primordial.",
+        "entidades": {
+          "pessoas": [
+            "Dra. Rebecca Larson"
+          ],
+          "organizacoes": [
+            "NASA",
+            "Telescópio Espacial James Webb (JWST)",
+            "Universidade do Texas em Austin",
+            "The Astrophysical Journal"
+          ],
+          "locais": [
+            "galáxia CEERS 1019",
+            "universo primitivo"
+          ],
+          "datas": [
+            "hoje",
+            "570 milhões de anos após o Big Bang"
+          ]
+        },
+        "sentimento": "Positivo",
+        "tom": "Jornalístico-Científico",
+        "metadados": {
+          "fonte": "NASA (via anúncio/comunicado)",
+          "autor": "Não especificado",
+          "data_publicacao": "Desconhecido"
+        },
+        "dados_completos": {
+          "tipo": "texto",
+          "descricao": {
+            "resumo_evento": "A NASA, por meio do Telescópio Espacial James Webb (JWST), anunciou a descoberta do buraco negro supermassivo ativo mais distante já observado, localizado na galáxia CEERS 1019. Este buraco negro data de 570 milhões de anos após o Big Bang e possui cerca de 9 milhões de massas solares, desafiando modelos existentes sobre a formação de buracos negros primitivos. As descobertas foram publicadas na revista The Astrophysical Journal e fornecem insights cruciais sobre a coevolução de galáxias e buracos negros no universo primordial.",
+            "entidades": {
+              "pessoas": [
+                "Dra. Rebecca Larson"
+              ],
+              "organizacoes": [
+                "NASA",
+                "Telescópio Espacial James Webb (JWST)",
+                "Universidade do Texas em Austin",
+                "The Astrophysical Journal"
+              ],
+              "locais": [
+                "galáxia CEERS 1019",
+                "universo primitivo"
+              ],
+              "datas": [
+                "hoje",
+                "570 milhões de anos após o Big Bang"
+              ]
+            },
+            "analise_linguistica": {
+              "sentimento": "Positivo",
+              "tom": "Jornalístico-Científico"
+            },
+            "metadados": {
+              "fonte": "NASA (via anúncio/comunicado)",
+              "autor": "Não especificado",
+              "data_publicacao": "Desconhecido"
+            },
+            "contexto_geral": "O texto reporta uma descoberta científica significativa da NASA, onde o Telescópio James Webb identificou um buraco negro supermassivo recorde em distância e idade, localizado na galáxia CEERS 1019. A notícia, com um tom jornalístico-científico e sentimento positivo, detalha a importância da descoberta para a compreensão do universo primitivo, citando a Dra. Rebecca Larson da Universidade do Texas em Austin e a publicação no The Astrophysical Journal. A falta de uma data específica de publicação para este texto (além de 'hoje') e de um autor direto do artigo de notícia são pontos a considerar em verificações futuras."
+          }
+        }
+      }
+    },
+    "modulo2": {
+      "timestamp": "2025-11-02T22:42:02.659624",
+      "resultado": {
+        "alegacao_id": 1,
+        "texto_da_alegacao": "A NASA, por meio do Telescópio Espacial James Webb (JWST), anunciou a descoberta do buraco negro supermassivo ativo mais distante já observado, localizado na galáxia CEERS 1019.",
+        "justificativa_avaliacao": "Afirmação factual sobre uma descoberta científica principal e seu anúncio por uma instituição renomada (NASA/JWST), verificável em comunicados oficiais e de alto interesse público.",
+        "consultas_sugeridas_para_verificacao": [
+          "NASA James Webb supermassive black hole CEERS 1019 discovery",
+          "JWST most distant active supermassive black hole CEERS 1019",
+          "NASA anuncia buraco negro CEERS 1019 mais distante"
+        ]
+      }
+    },
+    "modulo3": {
+      "timestamp": "2025-11-02T22:43:44.904654",
+      "resultado": {
+        "resumo_executivo": {
+          "total_fontes_analisadas": 10,
+          "fontes_alta_relevancia": 6,
+          "fontes_media_relevancia": 3,
+          "distribuicao_posicoes": {
+            "Apoia": 6,
+            "Contextualiza (Neutro)": 3,
+            "Não Conclusivo": 1
+          }
+        },
+        "conclusao": {
+          "veredicto": "A maioria das evidências (6 de 10) possui alta relevância e apoia diretamente a alegação original, confirmando todos os seus elementos-chave. As evidências restantes de relevância média fornecem contexto sem contradizer. Há uma forte direção no sentido de apoiar a veracidade da alegação.",
+          "convergencia": "Existe um alto grau de convergência entre as fontes de alta relevância (CNN Brasil, MaisTecnologia, Metro World News, TecMundo, GaúchaZH, Canaltech). Todas corroboram que a NASA, por meio do Telescópio James Webb, anunciou a descoberta do buraco negro supermassivo ativo mais distante já observado, localizado na galáxia CEERS 1019, com detalhes consistentes (como a idade de 570 milhões de anos após o Big Bang e a massa de 9 milhões de massas solares). Há uma única divergência em um snippet de baixa relevância (Gizmodo) que descreve uma possível descoberta diferente (Capotauro) com características distintas, mas que não contradiz a alegação específica sobre CEERS 1019, apenas não se refere a ela.",
+          "confiabilidade": "O conjunto de evidências coletado é robusto e suficiente para se chegar a um veredito seguro. A consistência e a quantidade de fontes de alta relevância que confirmam cada aspecto da alegação fornecem uma base sólida para uma conclusão definitiva com alta confiança."
+        },
+        "analises_relevantes": {
+          "alta_relevancia": [
+            {
+              "fonte": "https://www.cnnbrasil.com.br/tecnologia/telescopio-webb-detecta-buraco-negro-formado-ha-mais-de-13-bilhoes-de-anos/",
+              "posicao": "Apoia",
+              "afirmacao_chave": "O Telescópio Espacial James Webb detectou um buraco negro dentro da galáxia CEERS 1019, formada 570 milhões de anos após o Big Bang.",
+              "snippet": "O Telescópio Espacial James Webb ... O buraco negro está dentro do CEERS 1019 – uma galáxia extremamente antiga provavelmente formada 570 milhões de anos após o big bang – com mais de 13 bilhões de anos..."
+            },
+            {
+              "fonte": "https://www.maistecnologia.com/telescopio-james-webb-captura-o-buraco-negro-supermassivo-ativo-mais-distante-ate-agora/",
+              "posicao": "Apoia",
+              "afirmacao_chave": "O Telescópio James Webb capturou o buraco negro supermassivo ativo mais distante até agora, localizado na galáxia CEERS 1019, existente 570 milhões de anos após o Big Bang.",
+              "snippet": "Recentemente, a equipa de pesquisa ... mais distante do universo. Este está localizado na galáxia CEERS 1019, esse buraco negro existia quando o universo tinha apenas 570 milhões de anos, o que o torna uma descoberta ainda ..."
+            },
+            {
+              "fonte": "https://www.metroworldnews.com.br/estilo-vida/2023/07/20/impacto-na-nasa-o-buraco-negro-mais-antigo-do-universo-foi-descoberto-gracas-ao-telescopio-james-webb/",
+              "posicao": "Apoia",
+              "afirmacao_chave": "Um buraco negro descoberto graças ao Telescópio James Webb está localizado na galáxia CEERS 1019, a 570 milhões de anos após o Big Bang.",
+              "snippet": "É um olhar surpreendente para o próprio início do universo. Está em uma galáxia que foi chamada de CEERS 1019, situada a 570 milhões de anos depois do Big Bang, ou seja, a cerca de 13,3 bilhões de anos-luz da Terra."
+            },
+            {
+              "fonte": "https://www.tecmundo.com.br/ciencia/262570-buraco-negro-antigo-detectado-achado-telescopio-james-webb.htm",
+              "posicao": "Apoia",
+              "afirmacao_chave": "Uma equipe de cientistas da Universidade do Texas em Austin, com o Telescópio James Webb, anunciou a descoberta de um buraco negro supermassivo ativo existente 570 milhões de anos após o Big Bang.",
+              "snippet": "Com a ajuda do Telescópio Espacial James Webb, uma equipe de cientistas da Universidade do Texas em Austin (UT) anunciou sexta-feira (31) a descoberta de um buraco negro supermassivo ativo que já existia aos 570 milhões de anos após o Big Bang."
+            },
+            {
+              "fonte": "https://gauchazh.clicrbs.com.br/tecnologia/noticia/2023/07/buraco-negro-supermassivo-ativo-mais-distante-e-antigo-e-registrado-pelo-telescopio-james-webb-cljsphb49005j015l7l4jnake.html",
+              "posicao": "Apoia",
+              "afirmacao_chave": "A NASA divulgou a descoberta do buraco negro supermassivo ativo mais distante e antigo de que se tem registro.",
+              "snippet": "Pesquisadores do programa Cosmic ... Norte-Americana (Nasa), divulgaram nesta quinta-feira (6) que descobriram o buraco negro supermassivo ativo mais distante da Terra e antigo de que se tem registro...."
+            },
+            {
+              "fonte": "https://canaltech.com.br/espaco/james-webb-encontra-buraco-negro-supermassivo-ativo-mais-longe-ja-visto-255228/",
+              "posicao": "Apoia",
+              "afirmacao_chave": "O Telescópio James Webb encontrou o buraco negro supermassivo ativo mais longe já visto, no centro da galáxia CEERS 1019, com 9 milhões de massas solares.",
+              "snippet": "Com o telescópio James Webb, uma ... já descoberto até então. Ele está no centro da galáxia CEERS 1019 e é muito menor do que se esperava, com apenas 9 milhões de massas solares...."
+            }
+          ],
+          "media_relevancia": [
+            {
+              "fonte": "https://epocanegocios.globo.com/ciencia-e-saude/noticia/2025/09/telescopio-james-webb-detecta-buraco-negro-de-13-bilhoes-de-anos-que-pode-mudar-a-historia-cosmica.ghtml",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "O telescópio James Webb, da NASA, detectou um antigo buraco negro que pode ter sido criado na primeira fração de segundo após o Big Bang."
+            },
+            {
+              "fonte": "https://oglobo.globo.com/fotogalerias/noticia/2023/11/07/nasa-fotografou-um-buraco-negro-supermassivo-que-pode-comprovar-teoria-cientifica-veja.ghtml",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "O telescópio James Webb, da NASA, capturou uma imagem de um buraco negro supermassivo ainda em formação."
+            },
+            {
+              "fonte": "https://aventurasnahistoria.com.br/noticias/historia-hoje/buraco-negro-mais-antigo-do-universo-e-descoberto-pelo-james-webb.phtml",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "O Telescópio James Webb encontrou um buraco negro ativo de quando o Universo tinha menos de 1 bilhão de anos."
+            }
+          ]
+        },
+        "evidencias_contradicao": [],
+        "evidencias_apoio": [
+          "O Telescópio Espacial James Webb detectou um buraco negro dentro da galáxia CEERS 1019, formada 570 milhões de anos após o Big Bang.",
+          "O Telescópio James Webb capturou o buraco negro supermassivo ativo mais distante até agora, localizado na galáxia CEERS 1019, existente 570 milhões de anos após o Big Bang.",
+          "Um buraco negro descoberto graças ao Telescópio James Webb está localizado na galáxia CEERS 1019, a 570 milhões de anos após o Big Bang.",
+          "Uma equipe de cientistas da Universidade do Texas em Austin, com o Telescópio James Webb, anunciou a descoberta de um buraco negro supermassivo ativo existente 570 milhões de anos após o Big Bang.",
+          "A NASA divulgou a descoberta do buraco negro supermassivo ativo mais distante e antigo de que se tem registro.",
+          "O Telescópio James Webb encontrou o buraco negro supermassivo ativo mais longe já visto, no centro da galáxia CEERS 1019, com 9 milhões de massas solares."
+        ],
+        "dados_completos": {
+          "relatorio_consolidado": {
+            "analises_individuais": [
+              {
+                "fonte": "https://www.cnnbrasil.com.br/tecnologia/telescopio-webb-detecta-buraco-negro-formado-ha-mais-de-13-bilhoes-de-anos/",
+                "snippet": "O Telescópio Espacial James Webb ... O buraco negro está dentro do CEERS 1019 – uma galáxia extremamente antiga provavelmente formada 570 milhões de anos após o big bang – com mais de 13 bilhões de anos...",
+                "relevancia": "Alta",
+                "posicao": "Apoia",
+                "afirmacao_chave": "O Telescópio Espacial James Webb detectou um buraco negro dentro da galáxia CEERS 1019, formada 570 milhões de anos após o Big Bang."
+              },
+              {
+                "fonte": "https://www.maistecnologia.com/telescopio-james-webb-captura-o-buraco-negro-supermassivo-ativo-mais-distante-ate-agora/",
+                "snippet": "Recentemente, a equipa de pesquisa ... mais distante do universo. Este está localizado na galáxia CEERS 1019, esse buraco negro existia quando o universo tinha apenas 570 milhões de anos, o que o torna uma descoberta ainda ...",
+                "relevancia": "Alta",
+                "posicao": "Apoia",
+                "afirmacao_chave": "O Telescópio James Webb capturou o buraco negro supermassivo ativo mais distante até agora, localizado na galáxia CEERS 1019, existente 570 milhões de anos após o Big Bang."
+              },
+              {
+                "fonte": "https://epocanegocios.globo.com/ciencia-e-saude/noticia/2025/09/telescopio-james-webb-detecta-buraco-negro-de-13-bilhoes-de-anos-que-pode-mudar-a-historia-cosmica.ghtml",
+                "snippet": "O telescópio espacial James Webb, da NASA, detectou um antigo buraco negro que os astrônomos acreditam que pode ter sido criado na primeira fração de segundo após o big bang (ou grande expansão).",
+                "relevancia": "Média",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "O telescópio James Webb, da NASA, detectou um antigo buraco negro que pode ter sido criado na primeira fração de segundo após o Big Bang."
+              },
+              {
+                "fonte": "https://www.metroworldnews.com.br/estilo-vida/2023/07/20/impacto-na-nasa-o-buraco-negro-mais-antigo-do-universo-foi-descoberto-gracas-ao-telescopio-james-webb/",
+                "snippet": "É um olhar surpreendente para o próprio início do universo. Está em uma galáxia que foi chamada de CEERS 1019, situada a 570 milhões de anos depois do Big Bang, ou seja, a cerca de 13,3 bilhões de anos-luz da Terra.",
+                "relevancia": "Alta",
+                "posicao": "Apoia",
+                "afirmacao_chave": "Um buraco negro descoberto graças ao Telescópio James Webb está localizado na galáxia CEERS 1019, a 570 milhões de anos após o Big Bang."
+              },
+              {
+                "fonte": "https://www.tecmundo.com.br/ciencia/262570-buraco-negro-antigo-detectado-achado-telescopio-james-webb.htm",
+                "snippet": "Com a ajuda do Telescópio Espacial James Webb, uma equipe de cientistas da Universidade do Texas em Austin (UT) anunciou sexta-feira (31) a descoberta de um buraco negro supermassivo ativo que já existia aos 570 milhões de anos após o Big Bang.",
+                "relevancia": "Alta",
+                "posicao": "Apoia",
+                "afirmacao_chave": "Uma equipe de cientistas da Universidade do Texas em Austin, com o Telescópio James Webb, anunciou a descoberta de um buraco negro supermassivo ativo existente 570 milhões de anos após o Big Bang."
+              },
+              {
+                "fonte": "https://gauchazh.clicrbs.com.br/tecnologia/noticia/2023/07/buraco-negro-supermassivo-ativo-mais-distante-e-antigo-e-registrado-pelo-telescopio-james-webb-cljsphb49005j015l7l4jnake.html",
+                "snippet": "Pesquisadores do programa Cosmic ... Norte-Americana (Nasa), divulgaram nesta quinta-feira (6) que descobriram o buraco negro supermassivo ativo mais distante da Terra e antigo de que se tem registro....",
+                "relevancia": "Alta",
+                "posicao": "Apoia",
+                "afirmacao_chave": "A NASA divulgou a descoberta do buraco negro supermassivo ativo mais distante e antigo de que se tem registro."
+              },
+              {
+                "fonte": "https://oglobo.globo.com/fotogalerias/noticia/2023/11/07/nasa-fotografou-um-buraco-negro-supermassivo-que-pode-comprovar-teoria-cientifica-veja.ghtml",
+                "snippet": "O telescópio James Webb, da NASA, capturou mais uma imagem impressionante ontem (6): a de um buraco negro supermassivo ainda em formação.",
+                "relevancia": "Média",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "O telescópio James Webb, da NASA, capturou uma imagem de um buraco negro supermassivo ainda em formação."
+              },
+              {
+                "fonte": "https://canaltech.com.br/espaco/james-webb-encontra-buraco-negro-supermassivo-ativo-mais-longe-ja-visto-255228/",
+                "snippet": "Com o telescópio James Webb, uma ... já descoberto até então. Ele está no centro da galáxia CEERS 1019 e é muito menor do que se esperava, com apenas 9 milhões de massas solares....",
+                "relevancia": "Alta",
+                "posicao": "Apoia",
+                "afirmacao_chave": "O Telescópio James Webb encontrou o buraco negro supermassivo ativo mais longe já visto, no centro da galáxia CEERS 1019, com 9 milhões de massas solares."
+              },
+              {
+                "fonte": "https://www.gizmodo.com.br/o-james-webb-encontrou-algo-no-limite-do-tempo-ninguem-sabes-se-e-uma-galaxia-um-buraco-negro-ou-o-eco-mais-antigo-do-universo-32019",
+                "snippet": "Chamado de Capotauro, ele pode ser a galáxia mais antiga já detectada — nascida apenas “três dias depois do Big Bang”. Outros cientistas acham que se trata de uma ilusão cósmica, ou talvez de um buraco negro primitivo.",
+                "relevancia": "Baixa",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "O James Webb encontrou um objeto chamado Capotauro, possivelmente uma galáxia ou buraco negro primitivo, nascido \"três dias depois do Big Bang\", com sua natureza ainda incerta."
+              },
+              {
+                "fonte": "https://aventurasnahistoria.com.br/noticias/historia-hoje/buraco-negro-mais-antigo-do-universo-e-descoberto-pelo-james-webb.phtml",
+                "snippet": "O super telescópio encontrou um buraco negro que estava em atividade quando o Universo tinha menos de 1 bilhão de anos",
+                "relevancia": "Média",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "O Telescópio James Webb encontrou um buraco negro ativo de quando o Universo tinha menos de 1 bilhão de anos."
+              }
+            ],
+            "sintese_geral": {
+              "forca_e_direcao": "A maioria das evidências (6 de 10) possui alta relevância e apoia diretamente a alegação original, confirmando todos os seus elementos-chave. As evidências restantes de relevância média fornecem contexto sem contradizer. Há uma forte direção no sentido de apoiar a veracidade da alegação.",
+              "convergencia_divergencia": "Existe um alto grau de convergência entre as fontes de alta relevância (CNN Brasil, MaisTecnologia, Metro World News, TecMundo, GaúchaZH, Canaltech). Todas corroboram que a NASA, por meio do Telescópio James Webb, anunciou a descoberta do buraco negro supermassivo ativo mais distante já observado, localizado na galáxia CEERS 1019, com detalhes consistentes (como a idade de 570 milhões de anos após o Big Bang e a massa de 9 milhões de massas solares). Há uma única divergência em um snippet de baixa relevância (Gizmodo) que descreve uma possível descoberta diferente (Capotauro) com características distintas, mas que não contradiz a alegação específica sobre CEERS 1019, apenas não se refere a ela.",
+              "suficiencia": "O conjunto de evidências coletado é robusto e suficiente para se chegar a um veredito seguro. A consistência e a quantidade de fontes de alta relevância que confirmam cada aspecto da alegação fornecem uma base sólida para uma conclusão definitiva com alta confiança."
+            }
+          }
+        }
+      }
+    },
+    "modulo4": {
+      "timestamp": "2025-11-02T22:49:38.322146",
+      "resultado": {
+        "veredito": "VERDADEIRA",
+        "confianca": 0.99,
+        "explicacao": "A alegação de que 'A NASA, por meio do Telescópio Espacial James Webb (JWST), anunciou a descoberta do buraco negro supermassivo ativo mais distante já observado, localizado na galáxia CEERS 1019' é classificada como VERDADEIRA. A análise da `sintese_das_evidencias` revela um grau extremamente elevado de apoio e convergência entre as fontes de alta relevância. Seis das dez fontes analisadas, todas de alta relevância (CNN Brasil, MaisTecnologia, Metro World News, TecMundo, GaúchaZH, Canaltech), corroboram diretamente todos os elementos-chave da alegação: a participação da NASA e do JWST, a natureza da descoberta como o buraco negro supermassivo ativo mais distante/antigo, e a localização na galáxia CEERS 1019. Essas fontes fornecem detalhes consistentes, como a idade de 570 milhões de anos após o Big Bang e a massa de 9 milhões de massas solares. As três fontes de média relevância contextualizam outras descobertas do JWST relacionadas a buracos negros, sem contradizer a alegação principal. A única fonte com divergência, de baixa relevância (Gizmodo), refere-se a uma descoberta diferente (Capotauro) e não se opõe à veracidade da alegação sobre CEERS 1019. A ausência de evidências de contradição direta e a robustez e consistência do apoio por múltiplas fontes confiáveis de notícias científicas e gerais confirmam a factualidade da alegação.",
+        "distribuicao_probabilistica": {
+          "VERDADEIRA": 0.99,
+          "DESINFORMAÇÃO": 0,
+          "PROPAGANDA": 0,
+          "CLICKBAIT": 0.05,
+          "SÁTIRA": 0,
+          "ERRO DE EDIÇÃO": 0.01,
+          "CONTEÚDO PATROCINADO": 0,
+          "NOTÍCIAS TENDENCIOSAS": 0,
+          "TEORIA DA CONSPIRAÇÃO": 0,
+          "PSEUDOCIÊNCIA": 0
+        },
+        "justificativa_scores": "O score de VERDADEIRA (0.99) é altíssimo devido ao apoio esmagador e consistente de múltiplas fontes de alta relevância que confirmam cada detalhe da alegação. Scores mínimos foram atribuídos a CLICKBAIT (0.05) e ERRO DE EDIÇÃO (0.01) pela possibilidade genérica de formatação de notícias ou pequenos deslizes, mas sem que a evidência suporte um veredito nessas categorias. As demais categorias receberam 0.0, pois não há absolutamente nenhuma evidência que as sustente: a alegação não é falsa, não é propaganda, sátira, conteúdo patrocinado, tendenciosa, teoria da conspiração ou pseudociência, mas sim uma reportagem factual de uma descoberta científica legítima.",
+        "html_report": "\n<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charset=\"UTF-8\"><title>Resultado da Verificação</title><style>body{font-family:sans-serif;background:#f0f2f5;padding:20px;color:#333}.container{max-width:800px;margin:0 auto;background:white;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.1);overflow:hidden}.header{background:#4a5568;color:white;padding:30px;text-align:center}h1,h2,h3{margin:0}.veredicto-principal{background:#2f855a;color:white;padding:30px;text-align:center}.veredicto-principal .emoji{font-size:48px;margin-bottom:10px}.veredicto-principal h2{font-size:32px;margin-bottom:5px}.veredicto-principal .score{opacity:0.9}.content{padding:30px}.section{margin-bottom:30px}.section h3{font-size:20px;color:#2c5282;padding-bottom:10px;border-bottom:2px solid #e2e8f0;margin-bottom:15px}.explicacao,.justificativa{background:#f7fafc;padding:20px;border-radius:8px;border-left:4px solid #4299e1;line-height:1.7}.justificativa{border-left-color:#ed8936;background:#fffaf0}.distribuicao{display:grid;gap:12px}.categoria{display:flex;align-items:center;padding:12px;background:#f7fafc;border-radius:8px}.categoria-nome{font-weight:600;flex-basis:200px}.categoria-barra{flex-grow:1;margin:0 15px;background:#e2e8f0;height:10px;border-radius:5px;overflow:hidden}.categoria-barra-fill{background:#4299e1;height:100%;border-radius:5px;width:99%}.categoria-score{font-weight:bold;color:#2c5282}</style></head><body><div class=\"container\"><div class=\"header\"><h1>🔍 Resultado da Verificação de Fatos</h1></div><div class=\"veredicto-principal\"><div class=\"emoji\">✅</div><h2>VERDADEIRA</h2><div class=\"score\">Confiança: 99%</div></div><div class=\"content\"><div class=\"section\"><h3>📝 Explicação Detalhada</h3><div class=\"explicacao\">A alegação de que 'A NASA, por meio do Telescópio Espacial James Webb (JWST), anunciou a descoberta do buraco negro supermassivo ativo mais distante já observado, localizado na galáxia CEERS 1019' é classificada como VERDADEIRA. A análise da `sintese_das_evidencias` revela um grau extremamente elevado de apoio e convergência entre as fontes de alta relevância. Seis das dez fontes analisadas, todas de alta relevância (CNN Brasil, MaisTecnologia, Metro World News, TecMundo, GaúchaZH, Canaltech), corroboram diretamente todos os elementos-chave da alegação: a participação da NASA e do JWST, a natureza da descoberta como o buraco negro supermassivo ativo mais distante/antigo, e a localização na galáxia CEERS 1019. Essas fontes fornecem detalhes consistentes, como a idade de 570 milhões de anos após o Big Bang e a massa de 9 milhões de massas solares. As três fontes de média relevância contextualizam outras descobertas do JWST relacionadas a buracos negros, sem contradizer a alegação principal. A única fonte com divergência, de baixa relevância (Gizmodo), refere-se a uma descoberta diferente (Capotauro) e não se opõe à veracidade da alegação sobre CEERS 1019. A ausência de evidências de contradição direta e a robustez e consistência do apoio por múltiplas fontes confiáveis de notícias científicas e gerais confirmam a factualidade da alegação.</div></div><div class=\"section\"><h3>📊 Distribuição Probabilística</h3><div class=\"distribuicao\"><div class=\"categoria\"><div class=\"categoria-nome\">VERDADEIRA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:99%\"></div></div><div class=\"categoria-score\">99%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">CLICKBAIT</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:5%\"></div></div><div class=\"categoria-score\">5%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">ERRO DE EDIÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:1%\"></div></div><div class=\"categoria-score\">1%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">DESINFORMAÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">PROPAGANDA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">SÁTIRA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">CONTEÚDO PATROCINADO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">NOTÍCIAS TENDENCIOSAS</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">TEORIA DA CONSPIRAÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">PSEUDOCIÊNCIA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div></div></div><div class=\"section\"><h3>💡 Justificativa dos Scores</h3><div class=\"justificativa\">O score de VERDADEIRA (0.99) é altíssimo devido ao apoio esmagador e consistente de múltiplas fontes de alta relevância que confirmam cada detalhe da alegação. Scores mínimos foram atribuídos a CLICKBAIT (0.05) e ERRO DE EDIÇÃO (0.01) pela possibilidade genérica de formatação de notícias ou pequenos deslizes, mas sem que a evidência suporte um veredito nessas categorias. As demais categorias receberam 0.0, pois não há absolutamente nenhuma evidência que as sustente: a alegação não é falsa, não é propaganda, sátira, conteúdo patrocinado, tendenciosa, teoria da conspiração ou pseudociência, mas sim uma reportagem factual de uma descoberta científica legítima.</div></div></div></div></body></html>",
+        "markdown_report": "# 🔍 RESULTADO DA VERIFICAÇÃO\n\n## ✅ VEREDITO: VERDADEIRA\n**Confiança:** 99%\n\n---\n\n### 📝 EXPLICAÇÃO DETALHADA\nA alegação de que 'A NASA, por meio do Telescópio Espacial James Webb (JWST), anunciou a descoberta do buraco negro supermassivo ativo mais distante já observado, localizado na galáxia CEERS 1019' é classificada como VERDADEIRA. A análise da `sintese_das_evidencias` revela um grau extremamente elevado de apoio e convergência entre as fontes de alta relevância. Seis das dez fontes analisadas, todas de alta relevância (CNN Brasil, MaisTecnologia, Metro World News, TecMundo, GaúchaZH, Canaltech), corroboram diretamente todos os elementos-chave da alegação: a participação da NASA e do JWST, a natureza da descoberta como o buraco negro supermassivo ativo mais distante/antigo, e a localização na galáxia CEERS 1019. Essas fontes fornecem detalhes consistentes, como a idade de 570 milhões de anos após o Big Bang e a massa de 9 milhões de massas solares. As três fontes de média relevância contextualizam outras descobertas do JWST relacionadas a buracos negros, sem contradizer a alegação principal. A única fonte com divergência, de baixa relevância (Gizmodo), refere-se a uma descoberta diferente (Capotauro) e não se opõe à veracidade da alegação sobre CEERS 1019. A ausência de evidências de contradição direta e a robustez e consistência do apoio por múltiplas fontes confiáveis de notícias científicas e gerais confirmam a factualidade da alegação.\n\n---\n\n### 📊 DISTRIBUIÇÃO PROBABILÍSTICA\n**VERDADEIRA:** █████████░ 99%\n**CLICKBAIT:** ░░░░░░░░░░ 5%\n**ERRO DE EDIÇÃO:** ░░░░░░░░░░ 1%\n**DESINFORMAÇÃO:** ░░░░░░░░░░ 0%\n**PROPAGANDA:** ░░░░░░░░░░ 0%\n**SÁTIRA:** ░░░░░░░░░░ 0%\n**CONTEÚDO PATROCINADO:** ░░░░░░░░░░ 0%\n**NOTÍCIAS TENDENCIOSAS:** ░░░░░░░░░░ 0%\n**TEORIA DA CONSPIRAÇÃO:** ░░░░░░░░░░ 0%\n**PSEUDOCIÊNCIA:** ░░░░░░░░░░ 0%\n\n---\n\n### 💡 JUSTIFICATIVA DOS SCORES\nO score de VERDADEIRA (0.99) é altíssimo devido ao apoio esmagador e consistente de múltiplas fontes de alta relevância que confirmam cada detalhe da alegação. Scores mínimos foram atribuídos a CLICKBAIT (0.05) e ERRO DE EDIÇÃO (0.01) pela possibilidade genérica de formatação de notícias ou pequenos deslizes, mas sem que a evidência suporte um veredito nessas categorias. As demais categorias receberam 0.0, pois não há absolutamente nenhuma evidência que as sustente: a alegação não é falsa, não é propaganda, sátira, conteúdo patrocinado, tendenciosa, teoria da conspiração ou pseudociência, mas sim uma reportagem factual de uma descoberta científica legítima."
+      }
+    }
+  },
+  "dados_iniciais": {
+    "texto": "Título: NASA Confirma: Telescópio James Webb Descobre o Buraco Negro Supermassivo Ativo Mais Distante Já Detectado\nTexto:\nA NASA anunciou hoje uma descoberta marcante realizada pelo Telescópio Espacial James Webb (JWST), que identificou o buraco negro supermassivo ativo mais distante já observado. Localizado no centro da galáxia CEERS 1019, o objeto cósmico data de apenas 570 milhões de anos após o Big Bang, oferecendo aos cientistas uma visão sem precedentes do universo primitivo.\nA equipe internacional de astrônomos, utilizando os dados do Webb, publicou suas descobertas na revista científica The Astrophysical Journal. Segundo o estudo, o buraco negro tem aproximadamente 9 milhões de massas solares. \"Observar este objeto tão distante no tempo é um feito tremendo\", afirmou a Dra. Rebecca Larson, da Universidade do Texas em Austin, principal autora do artigo. \"Sua massa, relativamente baixa para buracos negros do universo primitivo, é um quebra-cabeça que desafia nossos modelos sobre como esses gigantes se formam e crescem tão rapidamente.\"\nA descoberta foi possível graças à sensibilidade infravermelha do James Webb, que permitiu aos pesquisadores analisar a luz emitida pela matéria enquanto ela é atraída para o buraco negro, um processo que gera imensa energia e torna o centro da galáxia extremamente brilhante.\nAlém de quebrar um recorde de distância, os dados coletados pelo Webb sobre a galáxia CEERS 1019 indicam uma taxa de formação de estrelas surpreendentemente alta. A análise continuada desta galáxia e de seu buraco negro central promete fornecer informações cruciais para a compreensão da coevolução de galáxias e buracos negros nos primeiros estágios do universo.",
+    "tipo_midia": "texto",
+    "url_fonte": null,
+    "contexto_adicional": null,
+    "projeto_id": "9f100e0c-6d3b-4842-b596-141a76728012"
+  },
+  "criado_em": "2025-11-02T22:05:14.558495",
+  "nome": "Nasa",
+  "descricao": "",
+  "finalizado_em": "2025-11-02T22:49:38.322146"
+}

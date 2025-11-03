@@ -1,0 +1,95 @@
+{
+  "projeto_id": "5ba46969-9d92-430e-8e3f-c853b69c7b55",
+  "modulos_executados": [
+    "modulo1"
+  ],
+  "resultados": {
+    "modulo1": {
+      "timestamp": "2025-11-02T20:26:10.922190",
+      "resultado": {
+        "resposta": "Este texto, apresentado como um anúncio urgente, descreve o sucesso de um projeto de reflorestamento inovador na Amazônia, supostamente liderado por cientistas suíços. As alegações são extraordinárias, mencionando a recuperação de 500.000 hectares em apenas seis meses e a expansão global iminente. A linguagem é marcadamente otimista e grandiloquente, utilizando termos como 'revolucionários' e 'maior e mais rápida reversão da história', com forte apelo emocional. A ausência de uma fonte de mídia específica, autor e data precisa de publicação, juntamente com a magnitude das afirmações, sugere a necessidade de uma verificação rigorosa sobre a existência, eficácia, financiamento e impacto real do projeto para as próximas fases de checagem de fatos.",
+        "tipo": "texto",
+        "resumo": "Cientistas do Instituto de Biotecnologia de Genebra (IBG) anunciam o sucesso da 'Operação Eco-Semente', um projeto que utiliza drones para plantar sementes bio-sintéticas na Amazônia, resultando na recuperação de 500.000 hectares em seis meses, com planos de expansão global.",
+        "entidades": {
+          "pessoas": [
+            "Dr. Alistair Finch"
+          ],
+          "organizacoes": [
+            "Instituto de Biotecnologia de Genebra (IBG)",
+            "consórcio internacional anônimo de filantropos da tecnologia",
+            "grupos ambientalistas"
+          ],
+          "locais": [
+            "Genebra",
+            "Amazônia",
+            "São Paulo",
+            "Indonésia",
+            "África Central"
+          ],
+          "datas": [
+            "hoje",
+            "72 horas",
+            "5 anos",
+            "seis meses",
+            "final do ano"
+          ]
+        },
+        "sentimento": "Positivo",
+        "tom": "Jornalístico e Otimista",
+        "metadados": {
+          "fonte": "Conteúdo textual fornecido (Título e Corpo)",
+          "autor": "",
+          "data_publicacao": ""
+        },
+        "dados_completos": {
+          "tipo": "texto",
+          "descricao": {
+            "resumo_evento": "Cientistas do Instituto de Biotecnologia de Genebra (IBG) anunciam o sucesso da 'Operação Eco-Semente', um projeto que utiliza drones para plantar sementes bio-sintéticas na Amazônia, resultando na recuperação de 500.000 hectares em seis meses, com planos de expansão global.",
+            "entidades": {
+              "pessoas": [
+                "Dr. Alistair Finch"
+              ],
+              "organizacoes": [
+                "Instituto de Biotecnologia de Genebra (IBG)",
+                "consórcio internacional anônimo de filantropos da tecnologia",
+                "grupos ambientalistas"
+              ],
+              "locais": [
+                "Genebra",
+                "Amazônia",
+                "São Paulo",
+                "Indonésia",
+                "África Central"
+              ],
+              "datas": [
+                "hoje",
+                "72 horas",
+                "5 anos",
+                "seis meses",
+                "final do ano"
+              ]
+            },
+            "analise_linguistica": {
+              "sentimento": "Positivo",
+              "tom": "Jornalístico e Otimista"
+            },
+            "metadados": {
+              "fonte": "Conteúdo textual fornecido (Título e Corpo)",
+              "autor": "",
+              "data_publicacao": ""
+            },
+            "contexto_geral": "Este texto, apresentado como um anúncio urgente, descreve o sucesso de um projeto de reflorestamento inovador na Amazônia, supostamente liderado por cientistas suíços. As alegações são extraordinárias, mencionando a recuperação de 500.000 hectares em apenas seis meses e a expansão global iminente. A linguagem é marcadamente otimista e grandiloquente, utilizando termos como 'revolucionários' e 'maior e mais rápida reversão da história', com forte apelo emocional. A ausência de uma fonte de mídia específica, autor e data precisa de publicação, juntamente com a magnitude das afirmações, sugere a necessidade de uma verificação rigorosa sobre a existência, eficácia, financiamento e impacto real do projeto para as próximas fases de checagem de fatos."
+          }
+        }
+      }
+    }
+  },
+  "dados_iniciais": {
+    "texto": "Título: URGENTE: Cientistas suíços anunciam sucesso da \"Operação Eco-Semente\" que usa drones para reflorestar a Amazônia em tempo recorde.\nTexto:\nUma equipe de cientistas do Instituto de Biotecnologia de Genebra (IBG) anunciou hoje resultados revolucionários de um projeto secreto chamado \"Operação Eco-Semente\". Segundo o Dr. Alistair Finch, líder do projeto, foram desenvolvidos drones autônomos capazes de plantar mais de 100.000 \"sementes bio-sintéticas\" por dia em áreas desmatadas da Amazônia.\nAs sementes, geneticamente modificadas para germinar em apenas 72 horas e atingir a maturidade em menos de 5 anos, já teriam recuperado mais de 500.000 hectares de floresta, uma área equivalente a três vezes a cidade de São Paulo, em apenas seis meses de testes. \"Estamos testemunhando a maior e mais rápida reversão de desmatamento da história da humanidade. A tecnologia utiliza um composto de hidrogel enriquecido com nutrientes que garante uma taxa de sucesso de 95% para cada semente plantada\", afirmou Dr. Finch em um comunicado à imprensa.\nO projeto, financiado por um consórcio internacional anônimo de filantropos da tecnologia, já planeja expandir a operação para as florestas da Indonésia e da África Central até o final do ano. A notícia gerou euforia em grupos ambientalistas, que já consideram a tecnologia como a principal solução para a crise climática global.",
+    "tipo_midia": "texto",
+    "url_fonte": null,
+    "contexto_adicional": "data: 22/05/2025",
+    "projeto_id": "5ba46969-9d92-430e-8e3f-c853b69c7b55"
+  },
+  "criado_em": "2025-11-02T20:25:54.219462"
+}

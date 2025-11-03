@@ -1,0 +1,134 @@
+{% block styles %}
+    <link rel="stylesheet" href="{{ url_for('static', path='mosaiko.css') }}">
+{% endblock %}
+
+{% block content %}
+<div class="container-check">
+    <!-- Cabeçalho -->
+    <div class="header-check">
+        <h1>🔍 Sistema de Checagem de Fatos com IA</h1>
+        <p>Execute os módulos individualmente ou faça a checagem completa</p>
+    </div>
+
+    <!-- Gerenciamento de Projetos -->
+    <div class="projeto-controle">
+        <div class="projeto-select-group">
+            <label for="projetoSelect">📁 Projeto:</label>
+            <select id="projetoSelect" onchange="selecionarProjeto()">
+                <option value="">Novo Projeto</option>
+            </select>
+        </div>
+        <div class="projeto-botoes">
+            <button class="btn-secundario" onclick="criarNovoProjeto()">
+                ➕ Novo
+            </button>
+            <button class="btn-secundario" id="btnBaixarProjeto" onclick="baixarProjeto()" disabled>
+                ⬇️ Baixar
+            </button>
+            <button class="btn-perigo" id="btnExcluirProjeto" onclick="excluirProjeto()" disabled>
+                🗑️ Excluir
+            </button>
+        </div>
+    </div>
+
+    <!-- Área de Alertas -->
+    <div id="alertas"></div>
+
+    <div class="main-content-check">
+        <!-- Seção de Input -->
+        <div class="input-section-check">
+            <div class="input-form-check">
+                <h2>📝 Dados para Verificação</h2>
+                
+                <div class="form-group">
+                    <label for="texto">Texto para Verificação:</label>
+                    <textarea id="texto" required placeholder="Cole aqui o texto que deseja verificar..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="tipo_midia">Tipo de Mídia:</label>
+                    <select id="tipo_midia">
+                        <option value="texto">📝 Texto</option>
+                        <option value="imagem">🖼️ Imagem</option>
+                        <option value="video">🎥 Vídeo</option>
+                        <option value="audio">🎵 Áudio</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="url_fonte">URL da Fonte (opcional):</label>
+                    <input type="url" id="url_fonte" placeholder="https://exemplo.com/noticia">
+                </div>
+
+                <div class="form-group">
+                    <label for="contexto">Contexto Adicional (opcional):</label>
+                    <textarea id="contexto" rows="3" placeholder="Informações adicionais..."></textarea>
+                </div>
+
+                <!-- Botões dos Módulos -->
+                <div class="modulos-buttons">
+                    <h3>Executar Módulos:</h3>
+                    
+                    <div class="modulo-linha">
+                        <button class="btn-modulo" id="btnModulo1" onclick="executarModulo('modulo1')">
+                            📥 Módulo 1: Extração
+                        </button>
+                        <button class="btn-rerun" data-modulo="modulo1" title="Reexecutar Módulo" disabled>🔄</button>
+                        <button class="btn-visualizar" data-modulo="modulo1" title="Ver Resultado" disabled>👁️</button>
+                    </div>
+
+                    <div class="modulo-linha">
+                        <button class="btn-modulo" id="btnModulo2" onclick="executarModulo('modulo2')" disabled>
+                            🔎 Módulo 2: Alegações
+                        </button>
+                        <button class="btn-rerun" data-modulo="modulo2" title="Reexecutar Módulo" disabled>🔄</button>
+                        <button class="btn-visualizar" data-modulo="modulo2" title="Ver Resultado" disabled>👁️</button>
+                    </div>
+
+                    <div class="modulo-linha">
+                        <button class="btn-modulo" id="btnModulo3" onclick="executarModulo('modulo3')" disabled>
+                            📚 Módulo 3: Evidências
+                        </button>
+                        <button class="btn-rerun" data-modulo="modulo3" title="Reexecutar Módulo" disabled>🔄</button>
+                        <button class="btn-visualizar" data-modulo="modulo3" title="Ver Resultado" disabled>👁️</button>
+                    </div>
+
+                    <div class="modulo-linha">
+                        <button class="btn-modulo" id="btnModulo4" onclick="executarModulo('modulo4')" disabled>
+                            ⚖️ Módulo 4: Veredito
+                        </button>
+                        <button class="btn-rerun" data-modulo="modulo4" title="Reexecutar Módulo" disabled>🔄</button>
+                        <button class="btn-visualizar" data-modulo="modulo4" title="Ver Resultado" disabled>👁️</button>
+                    </div>
+                    
+                    <button class="btn-check" onclick="executarCompleto()">
+                        ✅ Executar Checagem Completa
+                    </button>
+                </div>
+
+                <!-- Indicador de Loading -->
+                <div id="loading" style="display: none;">
+                    <div class="loader"></div>
+                    <p style="text-align: center; margin-top: 10px;">Processando...</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Seção de Resultados -->
+        <div class="results-section-check">
+            <div class="result-card-check">
+                <h3>📊 Resultados</h3>
+                <div id="resultados">
+                    <p class="empty-state">
+                        Selecione um projeto existente ou crie um novo para começar.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+    <script src="{{ url_for('static', path='mosaiko.js') }}"></script>
+{% endblock %}

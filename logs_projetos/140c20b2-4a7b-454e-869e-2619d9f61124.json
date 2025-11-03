@@ -1,0 +1,249 @@
+{
+  "projeto_id": "140c20b2-4a7b-454e-869e-2619d9f61124",
+  "modulos_executados": [
+    "modulo1",
+    "modulo2",
+    "modulo3",
+    "modulo4"
+  ],
+  "resultados": {
+    "modulo1": {
+      "timestamp": "2025-11-02T20:42:05.006311",
+      "resultado": {
+        "resposta": "O texto apresenta um anúncio urgente de cientistas suíços do Instituto de Biotecnologia de Genebra (IBG), liderados pelo Dr. Alistair Finch, sobre o sucesso da 'Operação Eco-Semente'. Este projeto alegadamente emprega drones para plantar sementes bio-sintéticas na Amazônia, resultando na recuperação de 500.000 hectares em apenas seis meses. A linguagem é predominantemente jornalística, porém com um tom sensacionalista e alarmista, utilizando termos como 'URGENTE', 'revolucionários' e 'maior e mais rápida reversão da história da humanidade', visando gerar euforia e posicionar a tecnologia como a principal solução para a crise climática. Este contexto inicial sugere a necessidade de uma verificação aprofundada das alegações, das fontes e da viabilidade da tecnologia.",
+        "tipo": "texto",
+        "resumo": "Cientistas suíços anunciam o sucesso da 'Operação Eco-Semente', um projeto que utiliza drones para reflorestar a Amazônia com 'sementes bio-sintéticas' em tempo recorde.",
+        "entidades": {
+          "pessoas": [
+            "Dr. Alistair Finch"
+          ],
+          "organizacoes": [
+            "Instituto de Biotecnologia de Genebra (IBG)",
+            "consórcio internacional anônimo de filantropos da tecnologia",
+            "grupos ambientalistas"
+          ],
+          "locais": [
+            "Genebra",
+            "Amazônia",
+            "São Paulo",
+            "Indonésia",
+            "África Central"
+          ],
+          "datas": [
+            "hoje",
+            "72 horas",
+            "5 anos",
+            "seis meses",
+            "final do ano"
+          ]
+        },
+        "sentimento": "Alarmista/Altamente Positivo",
+        "tom": "Jornalístico/Sensacionalista",
+        "metadados": {
+          "fonte": "Título de Notícia (Implícito no texto)",
+          "autor": "Não mencionado",
+          "data_publicacao": "Hoje (implícito no texto)"
+        },
+        "dados_completos": {
+          "tipo": "texto",
+          "descricao": {
+            "resumo_evento": "Cientistas suíços anunciam o sucesso da 'Operação Eco-Semente', um projeto que utiliza drones para reflorestar a Amazônia com 'sementes bio-sintéticas' em tempo recorde.",
+            "entidades": {
+              "pessoas": [
+                "Dr. Alistair Finch"
+              ],
+              "organizacoes": [
+                "Instituto de Biotecnologia de Genebra (IBG)",
+                "consórcio internacional anônimo de filantropos da tecnologia",
+                "grupos ambientalistas"
+              ],
+              "locais": [
+                "Genebra",
+                "Amazônia",
+                "São Paulo",
+                "Indonésia",
+                "África Central"
+              ],
+              "datas": [
+                "hoje",
+                "72 horas",
+                "5 anos",
+                "seis meses",
+                "final do ano"
+              ]
+            },
+            "analise_linguistica": {
+              "sentimento": "Alarmista/Altamente Positivo",
+              "tom": "Jornalístico/Sensacionalista"
+            },
+            "metadados": {
+              "fonte": "Título de Notícia (Implícito no texto)",
+              "autor": "Não mencionado",
+              "data_publicacao": "Hoje (implícito no texto)"
+            },
+            "contexto_geral": "O texto apresenta um anúncio urgente de cientistas suíços do Instituto de Biotecnologia de Genebra (IBG), liderados pelo Dr. Alistair Finch, sobre o sucesso da 'Operação Eco-Semente'. Este projeto alegadamente emprega drones para plantar sementes bio-sintéticas na Amazônia, resultando na recuperação de 500.000 hectares em apenas seis meses. A linguagem é predominantemente jornalística, porém com um tom sensacionalista e alarmista, utilizando termos como 'URGENTE', 'revolucionários' e 'maior e mais rápida reversão da história da humanidade', visando gerar euforia e posicionar a tecnologia como a principal solução para a crise climática. Este contexto inicial sugere a necessidade de uma verificação aprofundada das alegações, das fontes e da viabilidade da tecnologia."
+          }
+        }
+      }
+    },
+    "modulo2": {
+      "timestamp": "2025-11-02T21:08:11.429573",
+      "resultado": {
+        "alegacao_id": 1,
+        "texto_da_alegacao": "O desmatamento e os garimpos ilegais são apontados como os principais impulsionadores da degradação na região do Xingu.",
+        "justificativa_avaliacao": "Afirmação factual sobre as causas da degradação ambiental no Xingu, conforme apontado por um relatório de organizações ambientais, verificável e de interesse público.",
+        "consultas_sugeridas_para_verificacao": [
+          "principais causas degradação Xingu desmatamento garimpo ilegal",
+          "Greenpeace Rede Xingu+ impulsionadores destruição ambiental",
+          "impacto garimpo desmatamento Amazônia Xingu"
+        ]
+      }
+    },
+    "modulo3": {
+      "timestamp": "2025-11-02T21:16:35.750090",
+      "resultado": {
+        "resumo_executivo": {
+          "total_fontes_analisadas": 10,
+          "fontes_alta_relevancia": 0,
+          "fontes_media_relevancia": 1,
+          "distribuicao_posicoes": {
+            "Não Conclusivo": 9,
+            "Contextualiza (Neutro)": 1
+          }
+        },
+        "conclusao": {
+          "veredicto": "O peso geral das evidências é extremamente baixo. A grande maioria dos snippets é irrelevante ou de baixa relevância para a alegação original, não fornecendo informações que a apoiem, contradigam ou mesmo contextualizem de forma específica. Não há direção clara das evidências, pois nenhuma delas aborda o cerne da alegação.",
+          "convergencia": "Não há convergência nem divergência entre as fontes de alta relevância, uma vez que nenhuma fonte alcançou essa categoria. Os resultados da busca convergem, em sua maioria, para temas relacionados a empresas de biotecnologia e eventos sobre sementes/biotecnologia em Portugal, o que indica um desalinhamento significativo entre a query de busca (que parece ter sido gerada para um contexto anterior) e a alegação a ser verificada. A única fonte de relevância média (IPÊ) oferece um contexto ambiental geral no Brasil, mas sem qualquer detalhe sobre o Xingu, desmatamento ou garimpo ilegal como impulsionadores específicos da degradação.",
+          "confiabilidade": "A evidência coletada é totalmente insuficiente para se chegar a um veredito seguro. As informações recuperadas não permitem avaliar a veracidade da alegação sobre o desmatamento e garimpos ilegais serem os principais impulsionadores da degradação na região do Xingu. É imperativo realizar novas buscas com queries alinhadas diretamente à alegação para obter evidências relevantes."
+        },
+        "analises_relevantes": {
+          "alta_relevancia": [],
+          "media_relevancia": [
+            {
+              "fonte": "https://ipe.org.br/",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "O IPÊ é um Instituto de Pesquisas Ecológicas brasileiro com a missão de proteger florestas e sistemas ambientais, o que tangencialmente se relaciona com a degradação ambiental."
+            }
+          ]
+        },
+        "evidencias_contradicao": [],
+        "evidencias_apoio": [],
+        "dados_completos": {
+          "relatorio_consolidado": {
+            "analises_individuais": [
+              {
+                "fonte": "https://www.iberinform.pt/empresa/21225491/ecbio-investigacao-e-desenvolvimento-em-biotecnologia-s-a",
+                "snippet": "Consulte toda a informação financeira da empresa ECBIO - INVESTIGAÇÃO E DESENVOLVIMENTO EM BIOTECNOLOGIA, S.A.. Encontre o Nipc, morada e mais informação!",
+                "relevancia": "Irrelevante",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://www.racius.com/ecbio-investigacao-e-desenvolvimento-em-biotecnologia-s-a/",
+                "snippet": "Informações financeiras e estruturais sobre a Ecbio - NIF 504473379, como Volume de Faturação, Lucros ou Prejuízos, Morada da Sede, Atividade, Capital Social existência de acções em tribunal e dívidas fiscais. Outras actividades de consultoria, científicas, técnicas e similares",
+                "relevancia": "Irrelevante",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://propes.ufabc.edu.br/images/ProPes/nucleos/g4/interagro/proposta-01.pdf",
+                "snippet": "Fincheira, P. ; Tortella, G. ; Seabra, Ab ; Quiroz, A. ; Diez, M. C. ; Rubilar, O.",
+                "relevancia": "Irrelevante",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://www.einforma.pt/servlet/app/portal/ENTP/prod/ETIQUETA_EMPRESA/nif/504473379",
+                "snippet": "Informação financeira e de risco de empresas: contactos, nif, Acionistas, gestores, gerentes, administradores, contas, balanço, vendas, resultados, ativo...",
+                "relevancia": "Irrelevante",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://ipe.org.br/",
+                "snippet": "IPÊ Sobre o IPÊ Missão Nosso Credo Governança Staff Senior Ipeanos Estratégias Apoiadores e Parceiros Prêmios Imprensa Onde Estamos Nossos Resultados Relatórios Anuais Seja nosso Parceiro Doe Agora Doe Florestas Por que doar? Arredonde Suas Compras Doe com PayPal ou Conta Corrente Doações internacionais Adote uma Espécie Proteja o Sistema Cantareira Notícias Últimas Notícias Projetos ...",
+                "relevancia": "Média",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "O IPÊ é um Instituto de Pesquisas Ecológicas brasileiro com a missão de proteger florestas e sistemas ambientais, o que tangencialmente se relaciona com a degradação ambiental."
+              },
+              {
+                "fonte": "https://cap.pt/iniciativas/evento/semente-biotecnologia-no-rasto-da-inovacao",
+                "snippet": "A ANSEME, o CiB, a CAP, a CropLife Portugal e a IACA vão reunir em Santarém, no CNEMA, especialistas, produtores, investigadores e profissionais do setor agrícola no Colóquio «Semente &amp; Biotecnologia - No rasto da Inovação» para discutir e partilhar as mais recentes inovações e avanços na área das sementes e biotecnologia.",
+                "relevancia": "Baixa",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://www.rigorbiz.pt/diretorio/investigacao-cientifica-e-desenvolvimento/investigacao-e-desenvolvimento-em-biotecnologia/2",
+                "snippet": "Lista de todas as empresas portuguesas organizada por CAE",
+                "relevancia": "Irrelevante",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://www.dgav.pt/destaques/agenda/semente-e-biotecnologia-no-rasto-da-inovacao/",
+                "snippet": "A Subdiretora-Geral da DGAV, Paula Garcia, participará no evento “Semente e Biotecnologia: no rasto da inovação“, que **decorrerá no dia 26 de setembro, pelas 10h00, no CNEMA – Centro Nacional de Exposições, em Santarém**. A organização esta a cargo da Anseme, com o apoio da CiB ...",
+                "relevancia": "Baixa",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://www.gov.br/agricultura/pt-br/assuntos/insumos-agropecuarios/arquivos-publicacoes-insumos/3494_guia_de_inspecao_sementes.pdf",
+                "snippet": "Guia de inspeção de campos para produção de sementes / Ministério da Agricultura Pecuária e Abastecimento.",
+                "relevancia": "Baixa",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              },
+              {
+                "fonte": "https://estudogeral.uc.pt/bitstream/10316/114271/1/Tese%20Ana_Maranhao.pdf",
+                "snippet": "area, with already established policies for open access and research data, regarding its operation · and actions aimed at open science. Three research funders at the Institution are selected – Finep,",
+                "relevancia": "Irrelevante",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "Nenhuma evidência direta identificada."
+              }
+            ],
+            "sintese_geral": {
+              "forca_e_direcao": "O peso geral das evidências é extremamente baixo. A grande maioria dos snippets é irrelevante ou de baixa relevância para a alegação original, não fornecendo informações que a apoiem, contradigam ou mesmo contextualizem de forma específica. Não há direção clara das evidências, pois nenhuma delas aborda o cerne da alegação.",
+              "convergencia_divergencia": "Não há convergência nem divergência entre as fontes de alta relevância, uma vez que nenhuma fonte alcançou essa categoria. Os resultados da busca convergem, em sua maioria, para temas relacionados a empresas de biotecnologia e eventos sobre sementes/biotecnologia em Portugal, o que indica um desalinhamento significativo entre a query de busca (que parece ter sido gerada para um contexto anterior) e a alegação a ser verificada. A única fonte de relevância média (IPÊ) oferece um contexto ambiental geral no Brasil, mas sem qualquer detalhe sobre o Xingu, desmatamento ou garimpo ilegal como impulsionadores específicos da degradação.",
+              "suficiencia": "A evidência coletada é totalmente insuficiente para se chegar a um veredito seguro. As informações recuperadas não permitem avaliar a veracidade da alegação sobre o desmatamento e garimpos ilegais serem os principais impulsionadores da degradação na região do Xingu. É imperativo realizar novas buscas com queries alinhadas diretamente à alegação para obter evidências relevantes."
+            }
+          }
+        }
+      }
+    },
+    "modulo4": {
+      "timestamp": "2025-11-02T21:33:21.678410",
+      "resultado": {
+        "veredito": "DESINFORMAÇÃO",
+        "confianca": 1,
+        "explicacao": "A alegação é categorizada como desinformação devido à sua fabricação completa e intencional de fatos. A investigação minuciosa não encontrou qualquer registro público ou acadêmico de um 'Dr. Elias Viana' como cientista da computação português envolvido em pesquisas de IA e criptomoedas, indicando que a figura central da alegação é fictícia. Adicionalmente, a afirmação de que um modelo de IA pode prever tendências de mercado de criptomoedas com 98% de precisão para as próximas 72 horas é unanimemente refutada por especialistas em inteligência artificial e finanças. Tal nível de precisão é considerado virtualmente impossível e, se alcançado, representaria um avanço de proporções globais que seria amplamente divulgado por instituições científicas e financeiras renomadas, o que comprovadamente não ocorreu. A fonte, 'CryptoNewsAgora.com', foi identificada como um site recente, de baixa credibilidade, focado em notícias sensacionalistas sobre criptomoedas e investimentos 'rápidos e fáceis', com falta de transparência editorial e características de plataforma para promoção de esquemas de 'ganho rápido' ou golpes. A ausência de qualquer validação por fontes científicas, tecnológicas ou financeiras respeitáveis corrobora a natureza fraudulenta da alegação, que busca enganar os leitores com informações totalmente inventadas.",
+        "distribuicao_probabilistica": {
+          "VERDADEIRA": 0,
+          "DESINFORMAÇÃO": 1,
+          "PROPAGANDA": 0.1,
+          "CLICKBAIT": 0.7,
+          "SÁTIRA": 0,
+          "ERRO DE EDIÇÃO": 0,
+          "CONTEÚDO PATROCINADO": 0.2,
+          "NOTÍCIAS TENDENCIOSAS": 0.1,
+          "TEORIA DA CONSPIRAÇÃO": 0,
+          "PSEUDOCIÊNCIA": 0.6
+        },
+        "justificativa_scores": "O score de DESINFORMAÇÃO (1.0) é máximo, pois a alegação é uma fabricação total, desde a inexistência do 'cientista' até a impossibilidade da capacidade da IA, evidenciando uma intenção clara de enganar. CLICKBAIT (0.7) é alto devido à linguagem sensacionalista ('avanço revolucionário', '98% de precisão') projetada para atrair cliques em um nicho de mercado volátil. PSEUDOCIÊNCIA (0.6) é relevante porque a alegação se apropria de jargões e autoridade científica (Dr., cientista da computação) para conferir falsa credibilidade a uma afirmação inverificável e fantástica. CONTEÚDO PATROCINADO (0.2) é uma possibilidade secundária, visto que o site pode estar pavimentando o caminho para a promoção de produtos ou serviços fraudulentos relacionados a criptomoedas. As demais categorias receberam scores baixos ou nulos por não se alinharem com as características das evidências.",
+        "html_report": "\n<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charset=\"UTF-8\"><title>Resultado da Verificação</title><style>body{font-family:sans-serif;background:#f0f2f5;padding:20px;color:#333}.container{max-width:800px;margin:0 auto;background:white;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.1);overflow:hidden}.header{background:#4a5568;color:white;padding:30px;text-align:center}h1,h2,h3{margin:0}.veredicto-principal{background:#c53030;color:white;padding:30px;text-align:center}.veredicto-principal .emoji{font-size:48px;margin-bottom:10px}.veredicto-principal h2{font-size:32px;margin-bottom:5px}.veredicto-principal .score{opacity:0.9}.content{padding:30px}.section{margin-bottom:30px}.section h3{font-size:20px;color:#2c5282;padding-bottom:10px;border-bottom:2px solid #e2e8f0;margin-bottom:15px}.explicacao,.justificativa{background:#f7fafc;padding:20px;border-radius:8px;border-left:4px solid #4299e1;line-height:1.7}.justificativa{border-left-color:#ed8936;background:#fffaf0}.distribuicao{display:grid;gap:12px}.categoria{display:flex;align-items:center;padding:12px;background:#f7fafc;border-radius:8px}.categoria-nome{font-weight:600;flex-basis:200px}.categoria-barra{flex-grow:1;margin:0 15px;background:#e2e8f0;height:10px;border-radius:5px;overflow:hidden}.categoria-barra-fill{background:#4299e1;height:100%;border-radius:5px;width:100%}.categoria-score{font-weight:bold;color:#2c5282}</style></head><body><div class=\"container\"><div class=\"header\"><h1>🔍 Resultado da Verificação de Fatos</h1></div><div class=\"veredicto-principal\"><div class=\"emoji\">❌</div><h2>DESINFORMAÇÃO</h2><div class=\"score\">Confiança: 100%</div></div><div class=\"content\"><div class=\"section\"><h3>📝 Explicação Detalhada</h3><div class=\"explicacao\">A alegação é categorizada como desinformação devido à sua fabricação completa e intencional de fatos. A investigação minuciosa não encontrou qualquer registro público ou acadêmico de um 'Dr. Elias Viana' como cientista da computação português envolvido em pesquisas de IA e criptomoedas, indicando que a figura central da alegação é fictícia. Adicionalmente, a afirmação de que um modelo de IA pode prever tendências de mercado de criptomoedas com 98% de precisão para as próximas 72 horas é unanimemente refutada por especialistas em inteligência artificial e finanças. Tal nível de precisão é considerado virtualmente impossível e, se alcançado, representaria um avanço de proporções globais que seria amplamente divulgado por instituições científicas e financeiras renomadas, o que comprovadamente não ocorreu. A fonte, 'CryptoNewsAgora.com', foi identificada como um site recente, de baixa credibilidade, focado em notícias sensacionalistas sobre criptomoedas e investimentos 'rápidos e fáceis', com falta de transparência editorial e características de plataforma para promoção de esquemas de 'ganho rápido' ou golpes. A ausência de qualquer validação por fontes científicas, tecnológicas ou financeiras respeitáveis corrobora a natureza fraudulenta da alegação, que busca enganar os leitores com informações totalmente inventadas.</div></div><div class=\"section\"><h3>📊 Distribuição Probabilística</h3><div class=\"distribuicao\"><div class=\"categoria\"><div class=\"categoria-nome\">DESINFORMAÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:100%\"></div></div><div class=\"categoria-score\">100%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">CLICKBAIT</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:70%\"></div></div><div class=\"categoria-score\">70%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">PSEUDOCIÊNCIA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:60%\"></div></div><div class=\"categoria-score\">60%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">CONTEÚDO PATROCINADO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:20%\"></div></div><div class=\"categoria-score\">20%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">PROPAGANDA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:10%\"></div></div><div class=\"categoria-score\">10%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">NOTÍCIAS TENDENCIOSAS</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:10%\"></div></div><div class=\"categoria-score\">10%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">VERDADEIRA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">SÁTIRA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">ERRO DE EDIÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">TEORIA DA CONSPIRAÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div></div></div><div class=\"section\"><h3>💡 Justificativa dos Scores</h3><div class=\"justificativa\">O score de DESINFORMAÇÃO (1.0) é máximo, pois a alegação é uma fabricação total, desde a inexistência do 'cientista' até a impossibilidade da capacidade da IA, evidenciando uma intenção clara de enganar. CLICKBAIT (0.7) é alto devido à linguagem sensacionalista ('avanço revolucionário', '98% de precisão') projetada para atrair cliques em um nicho de mercado volátil. PSEUDOCIÊNCIA (0.6) é relevante porque a alegação se apropria de jargões e autoridade científica (Dr., cientista da computação) para conferir falsa credibilidade a uma afirmação inverificável e fantástica. CONTEÚDO PATROCINADO (0.2) é uma possibilidade secundária, visto que o site pode estar pavimentando o caminho para a promoção de produtos ou serviços fraudulentos relacionados a criptomoedas. As demais categorias receberam scores baixos ou nulos por não se alinharem com as características das evidências.</div></div></div></div></body></html>",
+        "markdown_report": "# 🔍 RESULTADO DA VERIFICAÇÃO\n\n## ❌ VEREDITO: DESINFORMAÇÃO\n**Confiança:** 100%\n\n---\n\n### 📝 EXPLICAÇÃO DETALHADA\nA alegação é categorizada como desinformação devido à sua fabricação completa e intencional de fatos. A investigação minuciosa não encontrou qualquer registro público ou acadêmico de um 'Dr. Elias Viana' como cientista da computação português envolvido em pesquisas de IA e criptomoedas, indicando que a figura central da alegação é fictícia. Adicionalmente, a afirmação de que um modelo de IA pode prever tendências de mercado de criptomoedas com 98% de precisão para as próximas 72 horas é unanimemente refutada por especialistas em inteligência artificial e finanças. Tal nível de precisão é considerado virtualmente impossível e, se alcançado, representaria um avanço de proporções globais que seria amplamente divulgado por instituições científicas e financeiras renomadas, o que comprovadamente não ocorreu. A fonte, 'CryptoNewsAgora.com', foi identificada como um site recente, de baixa credibilidade, focado em notícias sensacionalistas sobre criptomoedas e investimentos 'rápidos e fáceis', com falta de transparência editorial e características de plataforma para promoção de esquemas de 'ganho rápido' ou golpes. A ausência de qualquer validação por fontes científicas, tecnológicas ou financeiras respeitáveis corrobora a natureza fraudulenta da alegação, que busca enganar os leitores com informações totalmente inventadas.\n\n---\n\n### 📊 DISTRIBUIÇÃO PROBABILÍSTICA\n**DESINFORMAÇÃO:** ██████████ 100%\n**CLICKBAIT:** ███████░░░ 70%\n**PSEUDOCIÊNCIA:** ██████░░░░ 60%\n**CONTEÚDO PATROCINADO:** ██░░░░░░░░ 20%\n**PROPAGANDA:** █░░░░░░░░░ 10%\n**NOTÍCIAS TENDENCIOSAS:** █░░░░░░░░░ 10%\n**VERDADEIRA:** ░░░░░░░░░░ 0%\n**SÁTIRA:** ░░░░░░░░░░ 0%\n**ERRO DE EDIÇÃO:** ░░░░░░░░░░ 0%\n**TEORIA DA CONSPIRAÇÃO:** ░░░░░░░░░░ 0%\n\n---\n\n### 💡 JUSTIFICATIVA DOS SCORES\nO score de DESINFORMAÇÃO (1.0) é máximo, pois a alegação é uma fabricação total, desde a inexistência do 'cientista' até a impossibilidade da capacidade da IA, evidenciando uma intenção clara de enganar. CLICKBAIT (0.7) é alto devido à linguagem sensacionalista ('avanço revolucionário', '98% de precisão') projetada para atrair cliques em um nicho de mercado volátil. PSEUDOCIÊNCIA (0.6) é relevante porque a alegação se apropria de jargões e autoridade científica (Dr., cientista da computação) para conferir falsa credibilidade a uma afirmação inverificável e fantástica. CONTEÚDO PATROCINADO (0.2) é uma possibilidade secundária, visto que o site pode estar pavimentando o caminho para a promoção de produtos ou serviços fraudulentos relacionados a criptomoedas. As demais categorias receberam scores baixos ou nulos por não se alinharem com as características das evidências."
+      }
+    }
+  },
+  "dados_iniciais": {
+    "texto": "Título: URGENTE: Cientistas suíços anunciam sucesso da \"Operação Eco-Semente\" que usa drones para reflorestar a Amazônia em tempo recorde.\nTexto:\nUma equipe de cientistas do Instituto de Biotecnologia de Genebra (IBG) anunciou hoje resultados revolucionários de um projeto secreto chamado \"Operação Eco-Semente\". Segundo o Dr. Alistair Finch, líder do projeto, foram desenvolvidos drones autônomos capazes de plantar mais de 100.000 \"sementes bio-sintéticas\" por dia em áreas desmatadas da Amazônia.\nAs sementes, geneticamente modificadas para germinar em apenas 72 horas e atingir a maturidade em menos de 5 anos, já teriam recuperado mais de 500.000 hectares de floresta, uma área equivalente a três vezes a cidade de São Paulo, em apenas seis meses de testes. \"Estamos testemunhando a maior e mais rápida reversão de desmatamento da história da humanidade. A tecnologia utiliza um composto de hidrogel enriquecido com nutrientes que garante uma taxa de sucesso de 95% para cada semente plantada\", afirmou Dr. Finch em um comunicado à imprensa.\nO projeto, financiado por um consórcio internacional anônimo de filantropos da tecnologia, já planeja expandir a operação para as florestas da Indonésia e da África Central até o final do ano. A notícia gerou euforia em grupos ambientalistas, que já consideram a tecnologia como a principal solução para a crise climática global.",
+    "tipo_midia": "texto",
+    "url_fonte": null,
+    "contexto_adicional": "dt: 22/052025",
+    "projeto_id": "140c20b2-4a7b-454e-869e-2619d9f61124"
+  },
+  "criado_em": "2025-11-02T20:41:30.892830",
+  "nome": "Teste 2",
+  "descricao": "",
+  "finalizado_em": "2025-11-02T21:33:21.678410"
+}

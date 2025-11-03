@@ -1,0 +1,282 @@
+{
+  "projeto_id": "3102fde0-d91f-4aa9-b276-b9c0bce7235d",
+  "modulos_executados": [
+    "modulo1",
+    "modulo2",
+    "modulo3",
+    "modulo4"
+  ],
+  "resultados": {
+    "modulo1": {
+      "timestamp": "2025-11-02T22:52:25.142314",
+      "resultado": {
+        "resposta": "O texto do portal 'O Berrante Cósmico' apresenta uma 'revelação bombástica' feita por um suposto ex-engenheiro, Dr. Arnaldo Peneira, sobre pombos urbanos serem drones de vigilância 5G operados secretamente pelo governo (P.I.G.E.O.N.). A narrativa é construída com um tom jornalístico sensacionalista e alarmista, utilizando linguagem forte e apelos emocionais para descrever um potencial 'escândalo de vigilância em massa'. Embora o Ministério da Ciência, Tecnologia e Inovação negue as acusações, o texto menciona que fontes anônimas no ministério confirmam a existência de um 'grupo de trabalho para monitoramento de aves urbanas'. A ausência de um autor específico e data de publicação, juntamente com a natureza da alegação, indica a necessidade de uma verificação aprofundada da credibilidade da fonte e das informações apresentadas.",
+        "tipo": "texto",
+        "resumo": "Um ex-engenheiro, Dr. Arnaldo Peneira, alega que pombos urbanos são drones de vigilância 5G do programa governamental P.I.G.E.O.N., transmitindo dados em tempo real para Brasília. O Ministério da Ciência, Tecnologia e Inovação classifica as afirmações como teoria da conspiração, mas fontes anônimas mencionam um 'grupo de trabalho para monitoramento de aves urbanas'.",
+        "entidades": {
+          "pessoas": [
+            "Dr. Arnaldo Peneira"
+          ],
+          "organizacoes": [
+            "P.I.G.E.O.N. (Programa de Inteligência Governamental para Espionagem Ostensiva Nacional)",
+            "O Berrante Cósmico",
+            "Ministério da Ciência, Tecnologia e Inovação"
+          ],
+          "locais": [
+            "grandes centros urbanos",
+            "Brasília",
+            "país",
+            "praças",
+            "calçadas"
+          ],
+          "datas": [
+            "década de 90"
+          ]
+        },
+        "sentimento": "Alarmista",
+        "tom": "Jornalístico/Sensacionalista",
+        "metadados": {
+          "fonte": "O Berrante Cósmico",
+          "autor": "Não mencionado",
+          "data_publicacao": "Não mencionada"
+        },
+        "dados_completos": {
+          "tipo": "texto",
+          "descricao": {
+            "resumo_evento": "Um ex-engenheiro, Dr. Arnaldo Peneira, alega que pombos urbanos são drones de vigilância 5G do programa governamental P.I.G.E.O.N., transmitindo dados em tempo real para Brasília. O Ministério da Ciência, Tecnologia e Inovação classifica as afirmações como teoria da conspiração, mas fontes anônimas mencionam um 'grupo de trabalho para monitoramento de aves urbanas'.",
+            "entidades": {
+              "pessoas": [
+                "Dr. Arnaldo Peneira"
+              ],
+              "organizacoes": [
+                "P.I.G.E.O.N. (Programa de Inteligência Governamental para Espionagem Ostensiva Nacional)",
+                "O Berrante Cósmico",
+                "Ministério da Ciência, Tecnologia e Inovação"
+              ],
+              "locais": [
+                "grandes centros urbanos",
+                "Brasília",
+                "país",
+                "praças",
+                "calçadas"
+              ],
+              "datas": [
+                "década de 90"
+              ]
+            },
+            "analise_linguistica": {
+              "sentimento": "Alarmista",
+              "tom": "Jornalístico/Sensacionalista"
+            },
+            "metadados": {
+              "fonte": "O Berrante Cósmico",
+              "autor": "Não mencionado",
+              "data_publicacao": "Não mencionada"
+            },
+            "contexto_geral": "O texto do portal 'O Berrante Cósmico' apresenta uma 'revelação bombástica' feita por um suposto ex-engenheiro, Dr. Arnaldo Peneira, sobre pombos urbanos serem drones de vigilância 5G operados secretamente pelo governo (P.I.G.E.O.N.). A narrativa é construída com um tom jornalístico sensacionalista e alarmista, utilizando linguagem forte e apelos emocionais para descrever um potencial 'escândalo de vigilância em massa'. Embora o Ministério da Ciência, Tecnologia e Inovação negue as acusações, o texto menciona que fontes anônimas no ministério confirmam a existência de um 'grupo de trabalho para monitoramento de aves urbanas'. A ausência de um autor específico e data de publicação, juntamente com a natureza da alegação, indica a necessidade de uma verificação aprofundada da credibilidade da fonte e das informações apresentadas."
+          }
+        }
+      }
+    },
+    "modulo2": {
+      "timestamp": "2025-11-02T22:52:48.806349",
+      "resultado": {
+        "alegacao_id": 1,
+        "texto_da_alegacao": "Pombos urbanos são drones de vigilância 5G do programa governamental P.I.G.E.O.N., transmitindo dados em tempo real para Brasília.",
+        "justificativa_avaliacao": "Afirmação factual sobre uma suposta tecnologia de vigilância governamental secreta, de alto interesse público e potencial de disseminação de desinformação. É, em princípio, verificável através de fontes oficiais ou investigações tecnológicas.",
+        "consultas_sugeridas_para_verificacao": [
+          "pombos drones vigilância 5G programa governamental P.I.G.E.O.N.",
+          "Dr. Arnaldo Peneira ex-engenheiro teoria pombos drones",
+          "programa P.I.G.E.O.N. Ministério da Ciência Tecnologia vigilância"
+        ]
+      }
+    },
+    "modulo3": {
+      "timestamp": "2025-11-02T22:54:13.578188",
+      "resultado": {
+        "resumo_executivo": {
+          "total_fontes_analisadas": 10,
+          "fontes_alta_relevancia": 5,
+          "fontes_media_relevancia": 3,
+          "distribuicao_posicoes": {
+            "Contextualiza (Neutro)": 8,
+            "Não Conclusivo": 2
+          }
+        },
+        "conclusao": {
+          "veredicto": "A maioria das evidências de alta relevância contextualiza a possibilidade de drones biomiméticos, mas não oferece suporte direto à alegação original. Há uma forte ausência de evidências que confirmem os detalhes específicos da alegação sobre o Brasil.",
+          "convergencia": "Há uma convergência significativa entre múltiplas fontes de notícias (Revista Segurança Eletrônica, Mundo Conectado, Sputnik Brasil, Blogger) que confirmam a existência e o desenvolvimento de um programa de drones disfarçados de pássaros (denominado \"Dove\" ou \"Pombo\"/\"Pigeon\") pelo governo da China para fins de vigilância. No entanto, há uma total ausência de evidências que conectem essa tecnologia, ou qualquer programa similar, ao governo brasileiro, à rede 5G específica nos pombos, à transmissão de dados para Brasília, ao programa P.I.G.E.O.N. ou ao Dr. Arnaldo Peneira. Outras fontes (Reddit, TikTok, X) mostram que a ideia de \"pombos-drones do governo\" é uma teoria da conspiração e um meme popularmente difundido, muitas vezes em tom humorístico, o que pode ter influenciado a criação da alegação original.",
+          "confiabilidade": "O conjunto de evidências é suficiente para concluir que, embora a tecnologia de drones que imitam pássaros exista e seja utilizada por outros países (como a China), não há nenhuma evidência que corrobore a alegação específica de que *pombos urbanos no Brasil* são drones de vigilância 5G do programa governamental P.I.G.E.O.N., transmitindo dados em tempo real para Brasília. As lacunas são substanciais e impedem qualquer validação da alegação tal como formulada."
+        },
+        "analises_relevantes": {
+          "alta_relevancia": [
+            {
+              "fonte": "https://revistasegurancaeletronica.com.br/china-elabora-drones-disfarcados-de-pombos-para-missoes-de-vigilancia/",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "A China lançou um programa de espionagem nacional chamado “Dove” (Pombo), que utiliza drones disfarçados de pássaros para missões de vigilância.",
+              "snippet": "<strong>A China lançou um programa de espionagem nacional chamado “Dove” (Pombo).</strong> Os drones do programa não usam hélices para voar, imitando os batimentos de asas de pássaros a fim de mudar altura, além de cruzar as nuvens."
+            },
+            {
+              "fonte": "https://www.mundoconectado.com.br/drones/china-eleva-vigilancia-com-drones-disfarcados-de-passaros-em-novo-programa/",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "Em 2018, o governo chinês lançou o programa “Pombo” para desenvolver drones ornitópteros miméticos disfarçados de pássaros para vigilância em operações urbanas.",
+              "snippet": "O desenvolvimento de drones ornitópteros não é novidade para a China. Em 2018, <strong>o governo chinês lançou o programa “Pombo”, com o objetivo de criar drones miméticos para operações urbanas</strong>."
+            },
+            {
+              "fonte": "https://www.reddit.com/r/copypasta/comments/1ikob5b/the_pigeons_are_drones_from_the_government/?tl=pt-br",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "Uma 'copypasta' no Reddit populariza a teoria da conspiração de que pombos são drones de vigilância do governo, substituindo a população original a partir de 1959.",
+              "snippet": "Você sabia que em 1959, no auge da Guerra Fria, a população original de pombos diminuiu misteriosamente em 96,7%? 🚨 Isso coincidiu com o Projeto CORONA da CIA, supostamente um programa de satélites. Mas aqui está o que eles não nos contaram... Os pombos reais foram gradualmente substituídos por drones de vigilância sofisticados 🐦 Pense nisso - você já viu um filhote de pombo?"
+            },
+            {
+              "fonte": "https://noticiabrasil.net.br/20180625/china-drone-vigilancia-pombo-passaros-fotos-11557300.html",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "A China desenvolveu um novo drone de vigilância, parte do programa de espionagem nacional \"Dove\", com aparência idêntica a pássaros.",
+              "snippet": "<strong>A China relatou ter elaborado um novo drone de vigilância tão parecido com pássaros que ninguém de longe perceberá diferença</strong>. Neste domingo (24), a edição South China Morning Post escreveu sobre o programa de espionagem nacional &quot;Dove&quot; ..."
+            },
+            {
+              "fonte": "https://drone4.blogspot.com/2018/06/china-tem-drones-disfarcados-de-pombos.html",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "Drones chineses disfarçados de pombos copiam cerca de 90% dos movimentos de um pombo real e são extremamente silenciosos, segundo fonte anônima.",
+              "snippet": "<strong>Os drones copiam cerca de 90% dos movimentos de um pombo real</strong>, assinalou uma fonte governamental anônima, familiarizada com a situação, indicando que o drone é extremamente silencioso e não pode ser ouvido a partir do solo."
+            }
+          ],
+          "media_relevancia": [
+            {
+              "fonte": "https://www.sociedademilitar.com.br/2025/01/china-revoluciona-a-inteligencia-militar-com-tecnologia-secreta-drones-que-imitam-passaros-redefinem-o-futuro-da-espionagem-e-surpreendem-com-o-programa-pigeon-elz.html",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "O programa “Pigeon” da China é considerado um marco na tecnologia de drones para inteligência militar, utilizando drones que imitam pássaros."
+            },
+            {
+              "fonte": "https://www.tiktok.com/@orafaelcampos/video/7337703098929958149",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "Um vídeo no TikTok aborda a questão \"Pombos são drones do governo?\" em um contexto de humor e comédia, indicando a circulação da ideia como meme."
+            },
+            {
+              "fonte": "https://x.com/boliviazica/status/1082769262866063360",
+              "posicao": "Contextualiza (Neutro)",
+              "afirmacao_chave": "Um post no X (Twitter) dissemina a afirmação de que pombos são drones de vigilância do governo, utilizando o argumento popular de nunca se ver filhotes de pombo."
+            }
+          ]
+        },
+        "evidencias_contradicao": [],
+        "evidencias_apoio": [],
+        "dados_completos": {
+          "relatorio_consolidado": {
+            "analises_individuais": [
+              {
+                "fonte": "https://revistasegurancaeletronica.com.br/china-elabora-drones-disfarcados-de-pombos-para-missoes-de-vigilancia/",
+                "snippet": "<strong>A China lançou um programa de espionagem nacional chamado “Dove” (Pombo).</strong> Os drones do programa não usam hélices para voar, imitando os batimentos de asas de pássaros a fim de mudar altura, além de cruzar as nuvens.",
+                "relevancia": "Alta",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "A China lançou um programa de espionagem nacional chamado “Dove” (Pombo), que utiliza drones disfarçados de pássaros para missões de vigilância."
+              },
+              {
+                "fonte": "https://www.mundoconectado.com.br/drones/china-eleva-vigilancia-com-drones-disfarcados-de-passaros-em-novo-programa/",
+                "snippet": "O desenvolvimento de drones ornitópteros não é novidade para a China. Em 2018, <strong>o governo chinês lançou o programa “Pombo”, com o objetivo de criar drones miméticos para operações urbanas</strong>.",
+                "relevancia": "Alta",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "Em 2018, o governo chinês lançou o programa “Pombo” para desenvolver drones ornitópteros miméticos disfarçados de pássaros para vigilância em operações urbanas."
+              },
+              {
+                "fonte": "https://www.sociedademilitar.com.br/2025/01/china-revoluciona-a-inteligencia-militar-com-tecnologia-secreta-drones-que-imitam-passaros-redefinem-o-futuro-da-espionagem-e-surpreendem-com-o-programa-pigeon-elz.html",
+                "snippet": "Entretanto, por enquanto, o foco ... da China. O programa “Pigeon” <strong>é um marco para a tecnologia e para a forma como os países enxergam o uso de drones no contexto militar</strong>....",
+                "relevancia": "Média",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "O programa “Pigeon” da China é considerado um marco na tecnologia de drones para inteligência militar, utilizando drones que imitam pássaros."
+              },
+              {
+                "fonte": "https://www.reddit.com/r/copypasta/comments/1ikob5b/the_pigeons_are_drones_from_the_government/?tl=pt-br",
+                "snippet": "Você sabia que em 1959, no auge da Guerra Fria, a população original de pombos diminuiu misteriosamente em 96,7%? 🚨 Isso coincidiu com o Projeto CORONA da CIA, supostamente um programa de satélites. Mas aqui está o que eles não nos contaram... Os pombos reais foram gradualmente substituídos por drones de vigilância sofisticados 🐦 Pense nisso - você já viu um filhote de pombo?",
+                "relevancia": "Alta",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "Uma 'copypasta' no Reddit populariza a teoria da conspiração de que pombos são drones de vigilância do governo, substituindo a população original a partir de 1959."
+              },
+              {
+                "fonte": "https://noticiabrasil.net.br/20180625/china-drone-vigilancia-pombo-passaros-fotos-11557300.html",
+                "snippet": "<strong>A China relatou ter elaborado um novo drone de vigilância tão parecido com pássaros que ninguém de longe perceberá diferença</strong>. Neste domingo (24), a edição South China Morning Post escreveu sobre o programa de espionagem nacional &quot;Dove&quot; ...",
+                "relevancia": "Alta",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "A China desenvolveu um novo drone de vigilância, parte do programa de espionagem nacional \"Dove\", com aparência idêntica a pássaros."
+              },
+              {
+                "fonte": "https://drone4.blogspot.com/2018/06/china-tem-drones-disfarcados-de-pombos.html",
+                "snippet": "<strong>Os drones copiam cerca de 90% dos movimentos de um pombo real</strong>, assinalou uma fonte governamental anônima, familiarizada com a situação, indicando que o drone é extremamente silencioso e não pode ser ouvido a partir do solo.",
+                "relevancia": "Alta",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "Drones chineses disfarçados de pombos copiam cerca de 90% dos movimentos de um pombo real e são extremamente silenciosos, segundo fonte anônima."
+              },
+              {
+                "fonte": "https://www.tiktok.com/@orafaelcampos/video/7337703098929958149",
+                "snippet": "6853 Likes, 315 Comments. TikTok video from Rafael Campos (@orafaelcampos): “Pombos são drones do governo? #humor #comédia #ciencia #pombos”. som original - Rafael Campos.",
+                "relevancia": "Média",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "Um vídeo no TikTok aborda a questão \"Pombos são drones do governo?\" em um contexto de humor e comédia, indicando a circulação da ideia como meme."
+              },
+              {
+                "fonte": "https://x.com/boliviazica/status/1082769262866063360",
+                "snippet": "Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center · <strong>Pombos são drones usados pelo governo pra te vigiar</strong>; afinal, nunca ninguém viu um ...",
+                "relevancia": "Média",
+                "posicao": "Contextualiza (Neutro)",
+                "afirmacao_chave": "Um post no X (Twitter) dissemina a afirmação de que pombos são drones de vigilância do governo, utilizando o argumento popular de nunca se ver filhotes de pombo."
+              },
+              {
+                "fonte": "https://www.tudocelular.com/seguranca/noticias/n140464/governo-sp-vigilancia-uso-drones-.html",
+                "snippet": "<strong>O governador de São Paulo, João Dória (PSDB), anunciou na última sexta (12) a implantação de um programa de vigilância da Polícia Militar (PM) com uso de drones</strong>.",
+                "relevancia": "Baixa",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "O governo de São Paulo anunciou um programa de vigilância da Polícia Militar que utiliza drones convencionais."
+              },
+              {
+                "fonte": "https://www.publico.pt/2020/05/11/politica/noticia/governo-promete-reforco-vigilancia-aposta-drones-1916036",
+                "snippet": "O Governo diz que não houve redução de meios disponíveis, mas admite que esse é um cenário possível. <strong>Entre as medidas de reforço estarão 12 drones no terreno a partir do final de Junho</strong>.",
+                "relevancia": "Baixa",
+                "posicao": "Não Conclusivo",
+                "afirmacao_chave": "O governo de Portugal planeja usar drones para reforçar a vigilância de incêndios florestais."
+              }
+            ],
+            "sintese_geral": {
+              "forca_e_direcao": "A maioria das evidências de alta relevância contextualiza a possibilidade de drones biomiméticos, mas não oferece suporte direto à alegação original. Há uma forte ausência de evidências que confirmem os detalhes específicos da alegação sobre o Brasil.",
+              "convergencia_divergencia": "Há uma convergência significativa entre múltiplas fontes de notícias (Revista Segurança Eletrônica, Mundo Conectado, Sputnik Brasil, Blogger) que confirmam a existência e o desenvolvimento de um programa de drones disfarçados de pássaros (denominado \"Dove\" ou \"Pombo\"/\"Pigeon\") pelo governo da China para fins de vigilância. No entanto, há uma total ausência de evidências que conectem essa tecnologia, ou qualquer programa similar, ao governo brasileiro, à rede 5G específica nos pombos, à transmissão de dados para Brasília, ao programa P.I.G.E.O.N. ou ao Dr. Arnaldo Peneira. Outras fontes (Reddit, TikTok, X) mostram que a ideia de \"pombos-drones do governo\" é uma teoria da conspiração e um meme popularmente difundido, muitas vezes em tom humorístico, o que pode ter influenciado a criação da alegação original.",
+              "suficiencia": "O conjunto de evidências é suficiente para concluir que, embora a tecnologia de drones que imitam pássaros exista e seja utilizada por outros países (como a China), não há nenhuma evidência que corrobore a alegação específica de que *pombos urbanos no Brasil* são drones de vigilância 5G do programa governamental P.I.G.E.O.N., transmitindo dados em tempo real para Brasília. As lacunas são substanciais e impedem qualquer validação da alegação tal como formulada."
+            }
+          }
+        }
+      }
+    },
+    "modulo4": {
+      "timestamp": "2025-11-02T22:54:41.345022",
+      "resultado": {
+        "veredito": "TEORIA DA CONSPIRAÇÃO",
+        "confianca": 0.95,
+        "explicacao": "A alegação \"Pombos urbanos são drones de vigilância 5G do programa governamental P.I.G.E.O.N., transmitindo dados em tempo real para Brasília\" é classificada como uma TEORIA DA CONSPIRAÇÃO. A análise pericial das evidências consolidadas demonstra que, embora a tecnologia de drones biomiméticos que imitam pássaros realmente exista e esteja em desenvolvimento por governos como o da China (com programas como \"Dove\" ou \"Pigeon\"), não há absolutamente nenhuma evidência ou indício que conecte essa tecnologia, ou qualquer programa análogo, ao governo brasileiro. Os elementos específicos da alegação — a existência de um programa governamental brasileiro chamado P.I.G.E.O.N., o uso de pombos urbanos como drones de vigilância equipados com tecnologia 5G, e a transmissão de dados em tempo real para Brasília — são completamente infundados. A investigação apurou que a ideia de \"pombos-drones do governo\" é uma teoria da conspiração popular e um meme amplamente difundido em plataformas de redes sociais como Reddit, TikTok e X (Twitter), onde é frequentemente abordada em tom humorístico. A alegação distorce uma realidade tecnológica existente (drones-pássaro chineses) ao inseri-la em um contexto nacional fabricado, com detalhes fantasiosos e sem qualquer base factual, características primárias de uma teoria da conspiração. A total ausência de evidências que corroborem os detalhes brasileiros da alegação é o fator determinante para este veredito.",
+        "distribuicao_probabilistica": {
+          "VERDADEIRA": 0,
+          "DESINFORMAÇÃO": 0.9,
+          "PROPAGANDA": 0.1,
+          "CLICKBAIT": 0.4,
+          "SÁTIRA": 0.35,
+          "ERRO DE EDIÇÃO": 0,
+          "CONTEÚDO PATROCINADO": 0,
+          "NOTÍCIAS TENDENCIOSAS": 0.05,
+          "TEORIA DA CONSPIRAÇÃO": 0.95,
+          "PSEUDOCIÊNCIA": 0.15
+        },
+        "justificativa_scores": "O score de TEORIA DA CONSPIRAÇÃO (0.95) é o mais alto devido à presença de todos os elementos clássicos: um programa governamental secreto (P.I.G.E.O.N.), vigilância em massa disfarçada (pombos-drones 5G), e a total ausência de evidências para o contexto brasileiro específico, apesar da existência real de drones biomiméticos em outros países (China). DESINFORMAÇÃO (0.90) é quase tão alto, pois a alegação apresenta fatos comprovadamente falsos (o envolvimento do governo brasileiro, 5G nos pombos, etc.) com potencial de induzir ao erro. CLICKBAIT (0.40) reflete o caráter sensacionalista da alegação, projetada para atrair atenção. SÁTIRA (0.35) é um score moderado, pois a ideia de 'pombos-drones' é um meme humorístico em plataformas sociais, sugerindo uma possível intenção satírica na origem, embora não explícita na alegação. PSEUDOCIÊNCIA (0.15), PROPAGANDA (0.10) e NOTÍCIAS TENDENCIOSAS (0.05) recebem scores baixos, pois a alegação foca mais na conspiração secreta do que em distorção científica, agenda política clara ou viés noticioso de um evento real. VERDADEIRA, ERRO DE EDIÇÃO e CONTEÚDO PATROCINADO recebem 0.0 por total ausência de qualquer evidência de apoio.",
+        "html_report": "\n<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charset=\"UTF-8\"><title>Resultado da Verificação</title><style>body{font-family:sans-serif;background:#f0f2f5;padding:20px;color:#333}.container{max-width:800px;margin:0 auto;background:white;border-radius:12px;box-shadow:0 4px 20px rgba(0,0,0,0.1);overflow:hidden}.header{background:#4a5568;color:white;padding:30px;text-align:center}h1,h2,h3{margin:0}.veredicto-principal{background:#c53030;color:white;padding:30px;text-align:center}.veredicto-principal .emoji{font-size:48px;margin-bottom:10px}.veredicto-principal h2{font-size:32px;margin-bottom:5px}.veredicto-principal .score{opacity:0.9}.content{padding:30px}.section{margin-bottom:30px}.section h3{font-size:20px;color:#2c5282;padding-bottom:10px;border-bottom:2px solid #e2e8f0;margin-bottom:15px}.explicacao,.justificativa{background:#f7fafc;padding:20px;border-radius:8px;border-left:4px solid #4299e1;line-height:1.7}.justificativa{border-left-color:#ed8936;background:#fffaf0}.distribuicao{display:grid;gap:12px}.categoria{display:flex;align-items:center;padding:12px;background:#f7fafc;border-radius:8px}.categoria-nome{font-weight:600;flex-basis:200px}.categoria-barra{flex-grow:1;margin:0 15px;background:#e2e8f0;height:10px;border-radius:5px;overflow:hidden}.categoria-barra-fill{background:#4299e1;height:100%;border-radius:5px;width:95%}.categoria-score{font-weight:bold;color:#2c5282}</style></head><body><div class=\"container\"><div class=\"header\"><h1>🔍 Resultado da Verificação de Fatos</h1></div><div class=\"veredicto-principal\"><div class=\"emoji\">🕵️</div><h2>TEORIA DA CONSPIRAÇÃO</h2><div class=\"score\">Confiança: 95%</div></div><div class=\"content\"><div class=\"section\"><h3>📝 Explicação Detalhada</h3><div class=\"explicacao\">A alegação \"Pombos urbanos são drones de vigilância 5G do programa governamental P.I.G.E.O.N., transmitindo dados em tempo real para Brasília\" é classificada como uma TEORIA DA CONSPIRAÇÃO. A análise pericial das evidências consolidadas demonstra que, embora a tecnologia de drones biomiméticos que imitam pássaros realmente exista e esteja em desenvolvimento por governos como o da China (com programas como \"Dove\" ou \"Pigeon\"), não há absolutamente nenhuma evidência ou indício que conecte essa tecnologia, ou qualquer programa análogo, ao governo brasileiro. Os elementos específicos da alegação — a existência de um programa governamental brasileiro chamado P.I.G.E.O.N., o uso de pombos urbanos como drones de vigilância equipados com tecnologia 5G, e a transmissão de dados em tempo real para Brasília — são completamente infundados. A investigação apurou que a ideia de \"pombos-drones do governo\" é uma teoria da conspiração popular e um meme amplamente difundido em plataformas de redes sociais como Reddit, TikTok e X (Twitter), onde é frequentemente abordada em tom humorístico. A alegação distorce uma realidade tecnológica existente (drones-pássaro chineses) ao inseri-la em um contexto nacional fabricado, com detalhes fantasiosos e sem qualquer base factual, características primárias de uma teoria da conspiração. A total ausência de evidências que corroborem os detalhes brasileiros da alegação é o fator determinante para este veredito.</div></div><div class=\"section\"><h3>📊 Distribuição Probabilística</h3><div class=\"distribuicao\"><div class=\"categoria\"><div class=\"categoria-nome\">TEORIA DA CONSPIRAÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:95%\"></div></div><div class=\"categoria-score\">95%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">DESINFORMAÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:90%\"></div></div><div class=\"categoria-score\">90%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">CLICKBAIT</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:40%\"></div></div><div class=\"categoria-score\">40%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">SÁTIRA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:35%\"></div></div><div class=\"categoria-score\">35%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">PSEUDOCIÊNCIA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:15%\"></div></div><div class=\"categoria-score\">15%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">PROPAGANDA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:10%\"></div></div><div class=\"categoria-score\">10%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">NOTÍCIAS TENDENCIOSAS</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:5%\"></div></div><div class=\"categoria-score\">5%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">VERDADEIRA</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">ERRO DE EDIÇÃO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div><div class=\"categoria\"><div class=\"categoria-nome\">CONTEÚDO PATROCINADO</div><div class=\"categoria-barra\"><div class=\"categoria-barra-fill\" style=\"width:0%\"></div></div><div class=\"categoria-score\">0%</div></div></div></div><div class=\"section\"><h3>💡 Justificativa dos Scores</h3><div class=\"justificativa\">O score de TEORIA DA CONSPIRAÇÃO (0.95) é o mais alto devido à presença de todos os elementos clássicos: um programa governamental secreto (P.I.G.E.O.N.), vigilância em massa disfarçada (pombos-drones 5G), e a total ausência de evidências para o contexto brasileiro específico, apesar da existência real de drones biomiméticos em outros países (China). DESINFORMAÇÃO (0.90) é quase tão alto, pois a alegação apresenta fatos comprovadamente falsos (o envolvimento do governo brasileiro, 5G nos pombos, etc.) com potencial de induzir ao erro. CLICKBAIT (0.40) reflete o caráter sensacionalista da alegação, projetada para atrair atenção. SÁTIRA (0.35) é um score moderado, pois a ideia de 'pombos-drones' é um meme humorístico em plataformas sociais, sugerindo uma possível intenção satírica na origem, embora não explícita na alegação. PSEUDOCIÊNCIA (0.15), PROPAGANDA (0.10) e NOTÍCIAS TENDENCIOSAS (0.05) recebem scores baixos, pois a alegação foca mais na conspiração secreta do que em distorção científica, agenda política clara ou viés noticioso de um evento real. VERDADEIRA, ERRO DE EDIÇÃO e CONTEÚDO PATROCINADO recebem 0.0 por total ausência de qualquer evidência de apoio.</div></div></div></div></body></html>",
+        "markdown_report": "# 🔍 RESULTADO DA VERIFICAÇÃO\n\n## 🕵️ VEREDITO: TEORIA DA CONSPIRAÇÃO\n**Confiança:** 95%\n\n---\n\n### 📝 EXPLICAÇÃO DETALHADA\nA alegação \"Pombos urbanos são drones de vigilância 5G do programa governamental P.I.G.E.O.N., transmitindo dados em tempo real para Brasília\" é classificada como uma TEORIA DA CONSPIRAÇÃO. A análise pericial das evidências consolidadas demonstra que, embora a tecnologia de drones biomiméticos que imitam pássaros realmente exista e esteja em desenvolvimento por governos como o da China (com programas como \"Dove\" ou \"Pigeon\"), não há absolutamente nenhuma evidência ou indício que conecte essa tecnologia, ou qualquer programa análogo, ao governo brasileiro. Os elementos específicos da alegação — a existência de um programa governamental brasileiro chamado P.I.G.E.O.N., o uso de pombos urbanos como drones de vigilância equipados com tecnologia 5G, e a transmissão de dados em tempo real para Brasília — são completamente infundados. A investigação apurou que a ideia de \"pombos-drones do governo\" é uma teoria da conspiração popular e um meme amplamente difundido em plataformas de redes sociais como Reddit, TikTok e X (Twitter), onde é frequentemente abordada em tom humorístico. A alegação distorce uma realidade tecnológica existente (drones-pássaro chineses) ao inseri-la em um contexto nacional fabricado, com detalhes fantasiosos e sem qualquer base factual, características primárias de uma teoria da conspiração. A total ausência de evidências que corroborem os detalhes brasileiros da alegação é o fator determinante para este veredito.\n\n---\n\n### 📊 DISTRIBUIÇÃO PROBABILÍSTICA\n**TEORIA DA CONSPIRAÇÃO:** █████████░ 95%\n**DESINFORMAÇÃO:** █████████░ 90%\n**CLICKBAIT:** ████░░░░░░ 40%\n**SÁTIRA:** ███░░░░░░░ 35%\n**PSEUDOCIÊNCIA:** █░░░░░░░░░ 15%\n**PROPAGANDA:** █░░░░░░░░░ 10%\n**NOTÍCIAS TENDENCIOSAS:** ░░░░░░░░░░ 5%\n**VERDADEIRA:** ░░░░░░░░░░ 0%\n**ERRO DE EDIÇÃO:** ░░░░░░░░░░ 0%\n**CONTEÚDO PATROCINADO:** ░░░░░░░░░░ 0%\n\n---\n\n### 💡 JUSTIFICATIVA DOS SCORES\nO score de TEORIA DA CONSPIRAÇÃO (0.95) é o mais alto devido à presença de todos os elementos clássicos: um programa governamental secreto (P.I.G.E.O.N.), vigilância em massa disfarçada (pombos-drones 5G), e a total ausência de evidências para o contexto brasileiro específico, apesar da existência real de drones biomiméticos em outros países (China). DESINFORMAÇÃO (0.90) é quase tão alto, pois a alegação apresenta fatos comprovadamente falsos (o envolvimento do governo brasileiro, 5G nos pombos, etc.) com potencial de induzir ao erro. CLICKBAIT (0.40) reflete o caráter sensacionalista da alegação, projetada para atrair atenção. SÁTIRA (0.35) é um score moderado, pois a ideia de 'pombos-drones' é um meme humorístico em plataformas sociais, sugerindo uma possível intenção satírica na origem, embora não explícita na alegação. PSEUDOCIÊNCIA (0.15), PROPAGANDA (0.10) e NOTÍCIAS TENDENCIOSAS (0.05) recebem scores baixos, pois a alegação foca mais na conspiração secreta do que em distorção científica, agenda política clara ou viés noticioso de um evento real. VERDADEIRA, ERRO DE EDIÇÃO e CONTEÚDO PATROCINADO recebem 0.0 por total ausência de qualquer evidência de apoio."
+      }
+    }
+  },
+  "dados_iniciais": {
+    "texto": "Título: Governo Admite: Pombos Urbanos São Drones de Vigilância 5G, Afirma Ex-Engenheiro\nTexto:\nUma revelação bombástica promete abalar as estruturas da confiança pública. Em um depoimento exclusivo ao portal \"O Berrante Cósmico\", o Dr. Arnaldo Peneira, que alega ser um ex-engenheiro sênior do P.I.G.E.O.N. (Programa de Inteligência Governamental para Espionagem Ostensiva Nacional), afirmou que a totalidade dos pombos em grandes centros urbanos são, na verdade, drones de vigilância biomiméticos de alta tecnologia.\nSegundo Peneira, o projeto, iniciado secretamente na década de 90, atingiu sua maturidade com a chegada da rede 5G. \"Eles não estão apenas observando. Estão transmitindo dados faciais, conversas e padrões de movimento em tempo real para uma central de dados em Brasília\", declarou Peneira, visivelmente abalado. \"O arrulhar que ouvimos não é um som animal, é o ruído do sistema de refrigeração interno e da transmissão de dados.\"\nO engenheiro explica que os pombos-drones são autossuficientes, recarregando suas baterias de íon-lítio ao pousarem nos fios da rede elétrica. \"O pão que você joga não os alimenta, apenas calibra seus sensores ópticos de proximidade. É uma farsa para manter a população dócil e colaborativa com a manutenção da frota\", revelou.\nProcurado para comentar, o Ministério da Ciência, Tecnologia e Inovação classificou as alegações como \"uma teoria da conspiração infundada com o objetivo de difamar a avifauna nacional e gerar pânico\". No entanto, fontes anônimas dentro do ministério admitem que existe um \"grupo de trabalho para monitoramento de aves urbanas\", mas não deram mais detalhes.\nA reportagem do O Berrante Cósmico continuará a investigar o que pode ser o maior escândalo de vigilância em massa da história do país, escondido à vista de todos, em nossas praças e calçadas.",
+    "tipo_midia": "texto",
+    "url_fonte": null,
+    "contexto_adicional": null,
+    "projeto_id": "3102fde0-d91f-4aa9-b276-b9c0bce7235d"
+  },
+  "criado_em": "2025-11-02T22:52:00.051642",
+  "nome": "satira",
+  "descricao": "",
+  "finalizado_em": "2025-11-02T22:54:41.345022"
+}
