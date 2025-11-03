@@ -39,11 +39,6 @@
         <div class="input-section-check">
             <div class="input-form-check">
                 <h2>📝 Dados para Verificação</h2>
-                
-                <div class="form-group">
-                    <label for="texto">Texto para Verificação:</label>
-                    <textarea id="texto" required placeholder="Cole aqui o texto que deseja verificar..."></textarea>
-                </div>
 
                 <div class="form-group">
                     <label for="tipo_midia">Tipo de Mídia:</label>
@@ -53,6 +48,19 @@
                         <option value="video">🎥 Vídeo</option>
                         <option value="audio">🎵 Áudio</option>
                     </select>
+                </div>
+                
+                <!-- ÁREA DE INPUT PARA TEXTO -->
+                <div class="form-group" id="texto_area">
+                    <label for="texto" id="label_texto_principal">Texto para Verificação:</label>
+                    <textarea id="texto" required placeholder="Cole aqui o texto que deseja verificar..."></textarea>
+                </div>
+
+                <!-- ÁREA DE INPUT PARA IMAGEM (inicialmente oculta) -->
+                <div class="form-group" id="upload_area" style="display: none;">
+                    <label for="imagem_upload">Selecione uma Imagem:</label>
+                    <input type="file" id="imagem_upload" accept="image/*" class="form-control">
+                    <p id="file_info" style="margin-top: 8px; font-size: 12px; color: #666;"></p>
                 </div>
 
                 <div class="form-group">
@@ -109,7 +117,7 @@
                 <!-- Indicador de Loading -->
                 <div id="loading" style="display: none;">
                     <div class="loader"></div>
-                    <p style="text-align: center; margin-top: 10px;">Processando...</p>
+                    <p id="loading-text" style="text-align: center; margin-top: 10px;">Processando...</p>
                 </div>
             </div>
         </div>

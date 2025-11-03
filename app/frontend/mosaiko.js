@@ -1,5 +1,5 @@
 // ========================================
-// SISTEMA DE CHECAGEM - VERSÃO COMPLETA
+// SISTEMA DE CHECAGEM - VERSÃO 3.0 COM UPLOAD
 // ========================================
 
 // Estado global
@@ -21,25 +21,39 @@ const TITULOS_MODULOS = {
 document.addEventListener('DOMContentLoaded', function() {
     carregarProjetos();
     
-    document.querySelectorAll('.btn-visualizar').forEach(btn => {
-        btn.addEventListener('click', visualizarResultadoModulo);
-    });
-    document.querySelectorAll('.btn-rerun').forEach(btn => {
-        btn.addEventListener('click', reExecutarModulo);
-    });
+    document.querySelectorAll('.btn-visualizar').forEach(btn => btn.addEventListener('click', visualizarResultadoModulo));
+    document.querySelectorAll('.btn-rerun').forEach(btn => btn.addEventListener('click', reExecutarModulo));
+    
+    const tipoMidiaSelect = document.getElementById('tipo_midia');
+    if (tipoMidiaSelect) {
+        tipoMidiaSelect.addEventListener('change', atualizarCamposPorMidia);
+        atualizarCamposPorMidia(); 
+    }
+    
+    const imagemUploadInput = document.getElementById('imagem_upload');
+    if(imagemUploadInput) {
+        imagemUploadInput.addEventListener('change', () => {
+            const fileInfo = document.getElementById('file_info');
+            if(imagemUploadInput.files.length > 0) {
+                fileInfo.textContent = `Arquivo selecionado: ${imagemUploadInput.files[0].name}`;
+            } else {
+                fileInfo.textContent = '';
+            }
+        });
+    }
 
     const urlParams = new URLSearchParams(window.location.search);
     const projetoIdUrl = urlParams.get('projeto_id');
     const projetoIdLocal = localStorage.getItem('projeto_id_atual');
     
-    if (projetoIdUrl) {
-        carregarProjetoPorId(projetoIdUrl);
-    } else if (projetoIdLocal) {
-        carregarProjetoPorId(projetoIdLocal);
-    } else {
-        atualizarEstadoBotoes();
-    }
+    if (projetoIdUrl) carregarProjetoPorId(projetoIdUrl);
+    else if (projetoIdLocal) carregarProjetoPorId(projetoIdLocal);
+    else atualizarEstadoBotoes();
 });
+
+// ========================================
+// GERENCIAMENTO DE PROJETOS
+// ========================================
 
 async function carregarProjetoPorId(projetoId) {
     try {
@@ -49,7 +63,6 @@ async function carregarProjetoPorId(projetoId) {
             
             projetoAtual = projetoId;
             dadosProjetoAtual = data;
-            // Usar Set para garantir que não haja duplicados na contagem
             modulosExecutados = [...new Set(data.modulos_executados || [])];
             
             const select = document.getElementById('projetoSelect');
@@ -72,15 +85,11 @@ async function carregarProjetoPorId(projetoId) {
     } catch (error) {
         console.error('Erro ao carregar projeto:', error);
         mostrarMensagem('Falha ao carregar projeto. Pode ter sido excluído.', 'erro');
-        selecionarProjeto(); // Reseta para "Novo Projeto"
+        selecionarProjeto();
     } finally {
         atualizarEstadoBotoes();
     }
 }
-
-// ========================================
-// GERENCIAMENTO DE PROJETOS
-// ========================================
 
 async function carregarProjetos() {
     try {
@@ -159,24 +168,6 @@ async function selecionarProjeto() {
     await carregarProjetoPorId(projetoId);
 }
 
-function exibirProjetoCarregado(data) {
-    const resultadosDiv = document.getElementById('resultados');
-    let html = '<div class="projeto-carregado">';
-    html += `<h3>📁 Projeto: ${data.nome || 'Sem nome'}</h3>`;
-    html += `<p><strong>Criado em:</strong> ${formatarData(data.criado_em)}</p>`;
-    
-    const modulosUnicos = [...new Set(data.modulos_executados)];
-    html += `<p><strong>Módulos executados:</strong> ${modulosUnicos.length}</p>`;
-    
-    const ultimoModulo = modulosUnicos[modulosUnicos.length - 1];
-    if (ultimoModulo && data.resultados[ultimoModulo]) {
-         html += formatarResultadoModulo(TITULOS_MODULOS[ultimoModulo], data.resultados[ultimoModulo].resultado);
-    }
-   
-    html += '</div>';
-    resultadosDiv.innerHTML = html;
-}
-
 async function baixarProjeto() {
     if (!projetoAtual) {
         alert('Nenhum projeto selecionado');
@@ -207,7 +198,6 @@ async function excluirProjeto() {
 
         mostrarMensagem('Projeto excluído com sucesso!', 'sucesso');
         
-        // Reseta a interface
         projetoAtual = null;
         dadosProjetoAtual = null;
         modulosExecutados = [];
@@ -229,7 +219,7 @@ async function excluirProjeto() {
 }
 
 // ========================================
-// CONTROLE DE DEPENDÊNCIAS
+// CONTROLE DE DEPENDÊNCIAS E FORMULÁRIO
 // ========================================
 
 function atualizarEstadoBotoes() {
@@ -249,11 +239,6 @@ function atualizarEstadoBotoes() {
     document.querySelectorAll('.btn-visualizar, .btn-rerun').forEach(btn => {
         const modulo = btn.dataset.modulo;
         const jaExecutou = modulosExecutados.includes(modulo);
-        const podeExecutar = 
-            (modulo === 'modulo1' && temProjeto) ||
-            (modulo === 'modulo2' && temModulo1) ||
-            (modulo === 'modulo3' && temModulo2) ||
-            (modulo === 'modulo4' && temModulo3);
 
         if (btn.classList.contains('btn-rerun')) {
              btn.disabled = !jaExecutou;
@@ -284,9 +269,19 @@ function atualizarBadges() {
     }
 }
 
-// ========================================
-// CONTROLE DO FORMULÁRIO
-// ========================================
+function atualizarCamposPorMidia() {
+    const tipoMidia = document.getElementById('tipo_midia').value;
+    const textoArea = document.getElementById('texto_area');
+    const uploadArea = document.getElementById('upload_area');
+
+    if (tipoMidia === 'imagem') {
+        textoArea.style.display = 'none';
+        uploadArea.style.display = 'block';
+    } else {
+        textoArea.style.display = 'block';
+        uploadArea.style.display = 'none';
+    }
+}
 
 function preencherEdesabilitarFormulario(dadosIniciais) {
     const campos = ['texto', 'tipo_midia', 'url_fonte', 'contexto'];
@@ -299,6 +294,7 @@ function preencherEdesabilitarFormulario(dadosIniciais) {
             campo.style.opacity = '0.7';
         }
     });
+    atualizarCamposPorMidia(); 
 }
 
 function habilitarElimparFormulario() {
@@ -312,11 +308,112 @@ function habilitarElimparFormulario() {
             campo.style.opacity = '1';
         }
     });
+    // Limpa o input de arquivo
+    const uploadInput = document.getElementById('imagem_upload');
+    if (uploadInput) {
+        uploadInput.value = '';
+        document.getElementById('file_info').textContent = '';
+    }
+    atualizarCamposPorMidia();
 }
 
 // ========================================
 // EXECUÇÃO DE MÓDULOS
 // ========================================
+
+async function executarModulo(modulo) {
+    const tipoMidia = document.getElementById('tipo_midia').value;
+
+    if (modulo === 'modulo1' && tipoMidia === 'imagem') {
+        const fileInput = document.getElementById('imagem_upload');
+        if (fileInput.files.length === 0) {
+            alert('Por favor, selecione uma imagem para enviar.');
+            return;
+        }
+        await uploadEExecutarAnalise(fileInput.files[0]);
+    } else {
+        let dados = coletarDados();
+        if (!validarDados(dados, modulo)) return;
+        
+        if (modulo === 'modulo1' && !projetoAtual) {
+            await criarProjetoParaExecucao();
+            dados.projeto_id = projetoAtual;
+        }
+        
+        await chamarAPIModulo(modulo, dados);
+    }
+}
+
+async function uploadEExecutarAnalise(file) {
+    mostrarLoading(true, 'Enviando e processando imagem...');
+
+    const formData = new FormData();
+    formData.append('file', file);
+    
+    // Adiciona outros campos do formulário
+    if (projetoAtual) {
+        formData.append('projeto_id', projetoAtual);
+    }
+    
+    const urlFonte = document.getElementById('url_fonte').value;
+    if (urlFonte) {
+        formData.append('url_fonte', urlFonte);
+    }
+    
+    const contexto = document.getElementById('contexto').value;
+    if (contexto) {
+        formData.append('contexto_adicional', contexto);
+    }
+
+
+    try {
+        const response = await fetch('/mosaiko/modulo1-imagem', {
+            method: 'POST',
+            body: formData,
+        });
+
+        if (!response.ok) {
+            const erro = await response.json();
+            throw new Error(erro.detail || 'Falha no upload da imagem.');
+        }
+
+        const resultado = await response.json();
+        
+        // Atualiza o projeto atual se foi criado um novo
+        if (!projetoAtual && resultado.projeto_id) {
+            projetoAtual = resultado.projeto_id;
+            localStorage.setItem('projeto_id_atual', projetoAtual);
+            await carregarProjetos(); // Recarrega a lista
+            document.getElementById('projetoSelect').value = projetoAtual;
+        }
+
+        mostrarLoading(false);
+        
+        // Atualiza a interface com os resultados
+        await carregarProjetoPorId(resultado.projeto_id);
+        exibirResultadoFormatado(TITULOS_MODULOS['modulo1'], resultado.resultado);
+        mostrarMensagem(`${TITULOS_MODULOS['modulo1']} executado com sucesso!`, 'sucesso');
+
+    } catch (error) {
+        console.error('Erro no processo de upload e análise:', error);
+        mostrarMensagem(error.message, 'erro');
+        mostrarLoading(false);
+    }
+}
+
+async function criarProjetoParaExecucao() {
+    const nome = `Projeto ${new Date().toLocaleDateString('pt-BR')}`;
+    const response = await fetch('/mosaiko/projetos/novo', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ nome: nome })
+    });
+    const data = await response.json();
+    projetoAtual = data.projeto_id;
+    localStorage.setItem('projeto_id_atual', projetoAtual);
+    await carregarProjetos();
+    document.getElementById('projetoSelect').value = projetoAtual;
+}
 
 function coletarDados() {
     return {
@@ -329,63 +426,17 @@ function coletarDados() {
 }
 
 function validarDados(dados, modulo) {
-    if (modulo === 'modulo1' && (!dados.texto || dados.texto.trim() === '')) {
-        alert('Por favor, insira um texto para verificação.');
-        return false;
+    if (modulo === 'modulo1' && dados.tipo_midia !== 'imagem') {
+         if (!dados.texto || dados.texto.trim() === '') {
+            alert('Por favor, insira um texto para verificação.');
+            return false;
+        }
     }
     return true;
 }
 
-function mostrarLoading(mostrar) {
-    const loading = document.getElementById('loading');
-    const buttons = document.querySelectorAll('button');
-    if (mostrar) {
-        loading.style.display = 'block';
-        buttons.forEach(btn => btn.disabled = true);
-    } else {
-        loading.style.display = 'none';
-        atualizarEstadoBotoes();
-    }
-}
-
-async function executarModulo(modulo) {
-    let dados = coletarDados();
-    if (!validarDados(dados, modulo)) return;
-    
-    if (modulo === 'modulo1' && !projetoAtual) {
-        const nome = `Projeto ${new Date().toLocaleDateString('pt-BR')}`;
-        const response = await fetch('/mosaiko/projetos/novo', {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({ nome: nome })
-        });
-        const data = await response.json();
-        projetoAtual = data.projeto_id;
-        localStorage.setItem('projeto_id_atual', projetoAtual);
-        dados.projeto_id = projetoAtual;
-        await carregarProjetos();
-        document.getElementById('projetoSelect').value = projetoAtual;
-    }
-    
-    await chamarAPIModulo(modulo, dados);
-}
-
-async function reExecutarModulo(event) {
-    const modulo = event.currentTarget.dataset.modulo;
-    if (!confirm(`Você tem certeza que deseja reexecutar o ${TITULOS_MODULOS[modulo]}?\n\nIsso apagará os resultados deste e de todos os módulos seguintes.`)) {
-        return;
-    }
-    const dadosIniciais = dadosProjetoAtual?.dados_iniciais;
-    if (!dadosIniciais) {
-        mostrarMensagem('Não foi possível encontrar os dados iniciais do projeto para reexecutar.', 'erro');
-        return;
-    }
-    const dadosParaReexecucao = { ...dadosIniciais, projeto_id: projetoAtual };
-    await chamarAPIModulo(modulo, dadosParaReexecucao);
-}
-
 async function chamarAPIModulo(modulo, dados) {
-    mostrarLoading(true);
+    mostrarLoading(true, `Executando ${TITULOS_MODULOS[modulo]}...`);
     try {
         const response = await fetch(`/mosaiko/${modulo}`, {
             method: 'POST',
@@ -412,10 +463,30 @@ async function chamarAPIModulo(modulo, dados) {
     }
 }
 
+async function reExecutarModulo(event) {
+    const modulo = event.currentTarget.dataset.modulo;
+    if (!confirm(`Você tem certeza que deseja reexecutar o ${TITULOS_MODULOS[modulo]}?\n\nIsso apagará os resultados deste e de todos os módulos seguintes.`)) {
+        return;
+    }
+    const dadosIniciais = dadosProjetoAtual?.dados_iniciais;
+    if (!dadosIniciais) {
+        mostrarMensagem('Não foi possível encontrar os dados iniciais do projeto para reexecutar.', 'erro');
+        return;
+    }
+    const dadosParaReexecucao = { ...dadosIniciais, projeto_id: projetoAtual };
+    await chamarAPIModulo(modulo, dadosParaReexecucao);
+}
+
 async function executarCompleto() {
+    const tipoMidia = document.getElementById('tipo_midia').value;
+    if (tipoMidia === 'imagem') {
+        mostrarMensagem("A execução completa para upload de imagens ainda será implementada. Execute o Módulo 1 primeiro.", "info");
+        return;
+    }
+    
     let dados = coletarDados();
     if (!validarDados(dados, 'modulo1')) return;
-    mostrarLoading(true);
+    mostrarLoading(true, 'Iniciando checagem completa...');
     try {
         const response = await fetch('/mosaiko/executar-completo', {
             method: 'POST',
@@ -438,6 +509,7 @@ async function executarCompleto() {
     }
 }
 
+
 // ========================================
 // FORMATAÇÃO E VISUALIZAÇÃO
 // ========================================
@@ -450,6 +522,24 @@ function visualizarResultadoModulo(event) {
     } else {
         mostrarMensagem('Resultado não encontrado para este módulo.', 'erro');
     }
+}
+
+function exibirProjetoCarregado(data) {
+    const resultadosDiv = document.getElementById('resultados');
+    let html = '<div class="projeto-carregado">';
+    html += `<h3>📁 Projeto: ${data.nome || 'Sem nome'}</h3>`;
+    html += `<p><strong>Criado em:</strong> ${formatarData(data.criado_em)}</p>`;
+    
+    const modulosUnicos = [...new Set(data.modulos_executados)];
+    html += `<p><strong>Módulos executados:</strong> ${modulosUnicos.length}</p>`;
+    
+    const ultimoModulo = modulosUnicos[modulosUnicos.length - 1];
+    if (ultimoModulo && data.resultados[ultimoModulo]) {
+         html += formatarResultadoModulo(TITULOS_MODULOS[ultimoModulo], data.resultados[ultimoModulo].resultado);
+    }
+   
+    html += '</div>';
+    resultadosDiv.innerHTML = html;
 }
 
 function exibirResultadoFormatado(titulo, dados) {
@@ -540,6 +630,20 @@ function exibirResultadoCompleto(resultados) {
 // FUNÇÕES AUXILIARES
 // ========================================
 
+function mostrarLoading(mostrar, texto = 'Processando...') {
+    const loading = document.getElementById('loading');
+    const loadingText = document.getElementById('loading-text');
+    const buttons = document.querySelectorAll('button');
+    if (mostrar) {
+        loadingText.textContent = texto;
+        loading.style.display = 'block';
+        buttons.forEach(btn => btn.disabled = true);
+    } else {
+        loading.style.display = 'none';
+        atualizarEstadoBotoes();
+    }
+}
+
 function formatarChave(chave) {
     return chave.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
 }
@@ -552,7 +656,7 @@ function formatarNumero(num) {
 }
 
 function isURL(str) {
-    return typeof str === 'string' && (str.startsWith('http://') || str.startsWith('https://'));
+    return typeof str === 'string' && (str.startsWith('http://') || str.startsWith('https://') || str.startsWith('/static'));
 }
 
 function formatarData(dataISO, short = false) {
@@ -577,4 +681,4 @@ function limparResultados() {
     document.getElementById('resultados').innerHTML = `<p class="empty-state">Execute um módulo ou a checagem completa para ver os resultados aqui.</p>`;
 }
 
-console.log('Sistema de checagem carregado com sucesso! Versão 2.2');
+console.log('Sistema de checagem carregado com sucesso! Versão 3.0 com Upload');
